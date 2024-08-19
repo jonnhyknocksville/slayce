@@ -4,6 +4,8 @@
         "favicon": "favicon.png",
         "logo": "logo.png",
         "logo_footer": "logo_footer.png",
+        "header-page": "header-page.jpg",
+        "header-page-alt": "Image de l'entreprise",
         "description": "",
         "text_color" : "#2B2B2B",
         "title_color" : "#34303B",
@@ -18,6 +20,7 @@
         "font_family": "Roboto:wght@400;700"
     },
     "languages_title" : "Langues",
+    "languages_title_aria" : "Modifiez la langue",
     "languages": [
         {
             "code": "fr",
@@ -82,6 +85,8 @@
     ],
     "button-services": "Nos services",
     "button-contact": "Contactez-nous",
+    "button-services-aria-label": "Lien vers nos services",
+    "button-contact-aria-label": "Lien vers nos coordonnées",
     "technologies_title" : "Technologies que nous utilisons",
     "technologies_description" : "Nous employons des technologies modernes et éprouvées pour garantir des solutions de qualité.",
     "technologies": [
@@ -173,7 +178,7 @@
     "partners_description" : "Nous collaborons avec des partenaires de premier plan pour offrir les meilleures solutions à nos clients. Notre réseau de partenaires nous permet de rester à la pointe de la technologie et d'offrir des services innovants, adaptés aux besoins de chacun.",
     "partners": [
         {
-            "name": "Partenaire 1",
+            "name": "Zedino",
             "logo": "partner-1.png",
             "href": "https://www.zedino.com"
         }

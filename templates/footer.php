@@ -12,7 +12,7 @@
                     <?php foreach ($config['navigation'] as $navItem): ?>
                         <li
                             class="text-center">
-                            <a href="<?php echo htmlspecialchars($navItem['href']); ?>">
+                            <a aria-label="<?= htmlspecialchars($navItem['label']); ?>" href="<?php echo htmlspecialchars($navItem['href']); ?>">
                                 <?php echo htmlspecialchars($navItem['label']); ?>
                             </a>
                         </li>
@@ -28,7 +28,7 @@
                     <ul class="list-unstyled">
                         <?php foreach ($config['pages']['home']['legal_links'] as $link): ?>
                             <li class="text-center">
-                                <a href="?page=<?= htmlspecialchars($link['page']); ?>">
+                                <a aria-label="<?= htmlspecialchars($link['label']); ?>" href="?page=<?= htmlspecialchars($link['page']); ?>">
                                     <?= htmlspecialchars($link['label']); ?>
                                 </a>
                             </li>

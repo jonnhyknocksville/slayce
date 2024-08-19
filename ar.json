@@ -5,6 +5,8 @@
         "logo": "logo.png",
         "logo_footer": "logo_footer.png",
         "description": "",
+        "header-page": "header-page.jpg",
+        "header-page-alt": "صورة الشركة",
         "text_color" : "#2B2B2B",
         "title_color" : "#34303B",
         "primary_color": "#fff",
@@ -18,6 +20,7 @@
         "font_family": "Roboto:wght@400;700"
     },
     "languages_title" : "اللغات",
+    "languages_title_aria": "غيّر اللغة",
     "languages": [
         {
             "code": "fr",
@@ -82,6 +85,8 @@
     ],
     "button-services": "خدماتنا",
     "button-contact": "اتصل بنا",
+    "button-services-aria-label": "رابط إلى خدماتنا",
+    "button-contact-aria-label": "رابط إلى تفاصيل الاتصال بنا",
     "technologies_title" : "التقنيات التي نستخدمها",
     "technologies_description" : "نحن نستخدم تقنيات حديثة ومجربة لضمان حلول ذات جودة عالية.",
     "technologies": [
@@ -173,7 +178,7 @@
     "partners_description" : "نتعاون مع شركاء من الدرجة الأولى لتقديم أفضل الحلول لعملائنا. تتيح لنا شبكة شركائنا البقاء في طليعة التكنولوجيا وتقديم خدمات مبتكرة تتناسب مع احتياجات الجميع.",
     "partners": [
         {
-            "name": "الشريك 1",
+            "name": "Zedino",
             "logo": "partner-1.png",
             "href": "https://www.zedino.com"
         }

@@ -5,6 +5,8 @@
         "logo": "logo.png",
         "logo_footer": "logo_footer.png",
         "description": "",
+        "header-page": "header-page.jpg",
+        "header-page-alt": "Company picture",
         "text_color" : "#2B2B2B",
         "title_color" : "#34303B",
         "primary_color": "#fff",
@@ -18,6 +20,7 @@
         "font_family": "Roboto:wght@400;700"
     },
     "languages_title" : "Languages",
+    "languages_title_aria": "Change the language",
     "languages": [
         {
             "code": "fr",
@@ -81,7 +84,9 @@
         }
     ],
     "button-services": "Our Services",
-    "button-contact": "Contact Us",    
+    "button-contact": "Contact Us",
+    "button-services-aria-label": "Link to our services",
+    "button-contact-aria-label": "Link to our contact details",
     "technologies_title" : "Technologies We Use",
     "technologies_description" : "We use modern and proven technologies to ensure quality solutions.",
     "technologies": [
@@ -173,7 +178,7 @@
     "partners_description" : "We collaborate with leading partners to offer the best solutions to our clients. Our partner network allows us to stay at the forefront of technology and provide innovative services tailored to everyone's needs.",
     "partners": [
         {
-            "name": "Partner 1",
+            "name": "Zedino",
             "logo": "partner-1.png",
             "href": "https://www.zedino.com"
         }
