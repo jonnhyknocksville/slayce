@@ -1,0 +1,156 @@
+Bonjour ! Un client vient de me remplir un formulaire dans lequel ils me renseignent plusieurs informations concernant son entreprise.
+Je suis en train de lui créer un site web.
+Mon objectif? remplir un fichier json qui permettra d'automatiquement remplir le contenu de son site à partir de ces informations.
+Peux-tu prendre le rôle d'un copywritter, et me remplir ce fichier json?
+Certaines informations tu les trouveras dans les données collectées du formulaire, d'autres il faudra les inventer. Voici d'ailleurs mes consignes :
+
+Pour la description, essaie de me faire une phrase accrocheuse qui résume ce que fait mon client.
+
+Pour les couleurs du site, j'ai besoin que tu trouves les bons codes couleurs qui irait avec son activité, et ainsi définir 3 couleurs primaires et une couleur pour le texte.
+
+Pour company_image, j'ai besoin que tu utilises unsplash pour me mettre des liens d'images qui correspondent a l'activité de l'entreprise. Voici ma acess_key : 6mx57r5e3UZUs3XI8Ale61cItf01cteJtFbGnLU_9yc. L'image doit faire 500x500.
+
+Pour les services, j'ai besoin que tu m'en fournisses au moins 3, et j'ai besoin que tu utilises unsplash pour me mettre des liens d'images qui correspondent au service mis en place. Voici ma acess_key : 6mx57r5e3UZUs3XI8Ale61cItf01cteJtFbGnLU_9yc. Teste bien que l'image renvoyée ne renvoit pas d'erreur 404 avant de la mettre dans le fichier json sinon génère-en une autre. Je veux des images uniquement avec les dimensions suivantes : 320 x 480.
+
+Pour la partie membres de l'équipe J'ai besoin que tu inventes les noms, et les postes avec des descriptions légères en fonction de l'activité de l'entreprise et des données récoltées. Inspire toi du fichier json, mais change les noms prénom et postes et descritpion. Pour les photos des profiles, j'ai besoin de liens vers des avatar random vers l'api de ton choix. Pour les profils j'ai besoin que tu me mette dans le fichier json, 3, 6 ou 9 profiles. Je te laisse juger des besoins de l'entreprise en terme d'équipe. Pour les description utilise un ton léger avec des émoticons. Utilise https://randomuser.me pour les images des membres de l'équipe.
+
+Pour l'approche, j'ai besoin que tu m'inventes 4 points liés au service de l'entreprise, ces points doivent donner envie aux utilisateurs et prospects de soliciter l'entreprise. J'ai besoin que me mettes des icons font-awesome via le cdn https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css pour les icons.
+
+Pour la parties mentions légales, j'ai besoin que tu me rédiges dans ce fichier json de vraies mentions légales basées sur les informations récoltées et que pour chaque section tu respectes la structure du fichier json.
+
+Pour les conditions générales d'utilisation, j'ai besoin que tu me rédiges des conditions générales d'utilisation complète basées sur l'activité et les services de l'entreprise, je te laisse juger du nombres de sections, elles doivent être le plus complètes possibles et ne pas tenir compte du nombre de section dans le json et que pour chaque section tu respectes la structure du fichier json.
+
+Pour la partie cookies, j'ai besoin que tu me rédiges une vraie politique de cookies, je te laisse juger du nombres de sections, elles doivent être le plus complètes possibles et ne pas tenir compte du nombre de section dans le json et que pour chaque section tu respectes la structure du fichier json.
+
+Je précise que toutes les informations du fichier json doivent être modifié ne laisse rien de ce qu'il y avait à la base dans ce fichier, et que si tu juges qu'il faut mettre plus d'éléments dans le fichier json par exemple pour les mentions légales, ou la politique de cookies ou encore ou les conditions générales d'utilisations et que pour chaque section tu respectes la structure du fichier json.
+
+
+Voici les informations collectées de mon client via le formulaire :
+
+Votre pays	Le nom et prénom du gérant	Le nom de votre entreprise	Le nom commercial de votre entreprise	Le SIRET de votre entreprise	L'adresse de votre entreprise	La ville de votre entreprise	Le code postal de votre entreprise	Sur quel email vos clients peuvent-ils vous contacter?	Sur quel numéro de téléphone vos clients peuvent-ils vous contacter?	Avez-vous des réseaux sociaux? (Merci de préciser les urls de vos réseaux sociaux dans cette partie)	Pouvez-vous me décrire en quelques mots votre activité en précisant votre marché et cible	Pouvez-vous me préciser les services rendus par votre entreprise?	Avez-vous un slogan?
+Maroc	MOSTAFA OUAHBI	Zedino	AUCUN	1866923000002	Centre d'affaires Liberté 2. 47, Boulevard Lalla Yacout	Casablanca	20000	web@zedino.com	212678314220	non	Elle est spécialisée dans le secteur d'activité du conseil en systèmes et logiciels informatiques	"Services informatiques
+conceptions de site web et logiciels
+conseils informatiques"	ACUN
+
+voici un exemple la structure du fichier json :
+
+{
+    "site": {
+      "title": "Nom du Site",
+      "description": "Description du site",
+      "primary_color": "#2C3E50",
+      "secondary_color": "#3498DB",
+      "accent_color": "#E67E22",
+      "bg_color": "#FFFFFF",
+      "text_color": "#2C3E50",
+      "bg_dark_color": "#343a40",
+      "error_color": "#E74C3C",
+      "success_color": "#2ECC71",
+      "warning_color": "#F1C40F",
+      "info_color": "#3498DB",
+      "font_family": "Roboto:wght@400;700"
+    },
+    "pages": {
+      "home": {
+        "slogan": "Bienvenue sur Notre Site",
+        "company_image": "",
+        "services": {
+          "title": "Nos Services",
+          "description": "Découvrez nos services variés et adaptés à chaque demande."
+        },
+        "service_cards": [
+          {
+            "image": "",
+            "title": "Service 1",
+            "description": "Description du service 1."
+          }
+        ],
+        "profiles": {
+          "title": "Profils Disponibles",
+          "description": "Rencontrez notre équipe dédiée et passionnée.",
+          "members": [
+            {
+              "name": "",
+              "position": "",
+              "photo": "",
+              "description": ""
+            },
+          ]
+        },
+        "approach": {
+          "title": "Notre Approche",
+          "description": "Découvrez notre manière de travailler et nos valeurs fondamentales.",
+          "content": "Notre approche est centrée sur le client, avec des solutions sur mesure.",
+          "points": [
+            {
+              "icon": "",
+              "title": "",
+              "description": ""
+            }
+          ]
+        },
+        "contact": {
+          "title": "Contact",
+          "description": "Nous sommes là pour répondre à toutes vos questions.",
+          "address": "123 Rue Exemple, 75001 Paris, France",
+          "email": "contact@exemple.com",
+          "phone": "+33 1 23 45 67 89"
+        },
+        "map": {
+          "latitude": 48.8566,
+          "longitude": 2.3522
+        },
+        "social_links": {
+          "twitter": "https://twitter.com",
+          "linkedin": "https://www.linkedin.com",
+          "youtube": "https://www.youtube.com",
+          "blog": "#blog"
+        }
+      },
+      "mention_legales": {
+        "title": "Nos Mentions Légales",
+        "content": {
+          "introduction": "Conformément aux dispositions des Articles 6-III et 19 de la Loi n°2004-575 du 21 juin 2004 pour la Confiance dans l'économie numérique, dite L.C.E.N., il est porté à la connaissance des utilisateurs et visiteurs du site Nom du Site les présentes mentions légales.",
+          "editor_title": "Éditeur du site",
+          "editor": {
+            "name": "Nom de l'Éditeur",
+            "address": "123 Rue Exemple, 75001 Paris, France",
+            "phone": "+33 1 23 45 67 89",
+            "email": "contact@exemple.com"
+          },
+          "publication_manager_title": "Responsable de la publication",
+          "publication_manager": {
+            "name": "Nom du Responsable",
+            "email": "responsable@exemple.com"
+          },
+          "host_title": "Hébergeur du site",
+          "host": {
+            "name": "Nom de l'Hébergeur",
+            "address": "456 Rue Hébergeur, 75002 Paris, France",
+            "phone": "+33 1 98 76 54 32",
+            "email": "hebergeur@exemple.com"
+          },
+          "credits_title": "Crédits",
+          "credits": "Les mentions légales ont étés générées par Nom du Site. Les images et illustrations sont fournies par Nom du Site."
+        }
+      },
+      "condition_generales_utilisation": {
+        "title": "Nos Conditions Générales d'utilisation",
+        "content": {
+          "introduction": "Voici les conditions générales de vente de notre site.",
+          "section_1_title": "",
+          "section_1": ""
+        }
+      },
+      "politique_cookies": {
+        "title": "Politique de Cookies",
+        "content": {
+          "introduction": "Nous utilisons des cookies pour améliorer votre expérience sur notre site. Voici comment nous les utilisons et comment vous pouvez les contrôler.",
+          "section_1_title": "",
+          "section_1": "",
+        }
+      }
+    }
+  }
+  
+  Peux-tu me renvoyer un nouveau fichier json avec cette structure et des complète que tu vas me rédiger par rapport aux infos du formulaire?

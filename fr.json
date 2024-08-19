@@ -1,0 +1,477 @@
+{
+    "site": {
+        "title": "Exissia",
+        "favicon": "favicon.png",
+        "logo": "logo.png",
+        "logo_footer": "logo_footer.png",
+        "description": "",
+        "text_color" : "#2B2B2B",
+        "title_color" : "#34303B",
+        "primary_color": "#fff",
+        "secondary_color": "#e5f1fa",
+        "ternary_color": "#003260",
+        "bg_body_color": "#fff",
+        "error_color": "#E74C3C",
+        "success_color": "#2ECC71",
+        "warning_color": "#F1C40F",
+        "info_color": "#3498DB",
+        "font_family": "Roboto:wght@400;700"
+    },
+    "languages_title" : "Langues",
+    "languages": [
+        {
+            "code": "fr",
+            "name": "Français",
+            "flag": "fr.png"
+        },
+        {
+            "code": "en",
+            "name": "English",
+            "flag": "en.png"
+        },
+        {
+            "code": "es",
+            "name": "Español",
+            "flag": "es.png"
+        },
+        {
+            "code": "ar",
+            "name": "العربية",
+            "flag": "ar.png"
+        }
+    ],
+    "navigation_title" : "Navigation",
+    "navigation": [
+        {
+            "label": "Accueil",
+            "href": "#slogan"
+        },
+        {
+            "label": "Services",
+            "href": "#services"
+        },
+        {
+            "label": "Profils",
+            "href": "#profiles"
+        },
+        {
+            "label": "Approche",
+            "href": "#approach"
+        },
+        {
+            "label": "Technologies",
+            "href": "#technologies"
+        },
+        {
+            "label": "Avis",
+            "href": "#google-reviews"
+        },
+        {
+            "label": "Partenaires",
+            "href": "#partners"
+        },
+        {
+            "label": "Blog",
+            "href": "https://www.blog.exissia.com"
+        },
+        {
+            "label": "Contact",
+            "href": "#contact",
+            "class": "ml-5 contact"
+        }
+    ],
+    "button-services": "Nos services",
+    "button-contact": "Contactez-nous",
+    "technologies_title" : "Technologies que nous utilisons",
+    "technologies_description" : "Nous employons des technologies modernes et éprouvées pour garantir des solutions de qualité.",
+    "technologies": [
+        {
+            "label": "Angular",
+            "src": "techno-1.png"
+        },
+        {
+            "label": "Python",
+            "src": "techno-2.png"
+        },
+        {
+            "label": "Jira",
+            "src": "techno-3.png"
+        },
+        {
+            "label": "Laravel",
+            "src": "techno-4.png"
+        },
+        {
+            "label": "VueJS",
+            "src": "techno-5.png"
+        },
+        {
+            "label": "C#",
+            "src": "techno-6.png"
+        },
+        {
+            "label": "Github",
+            "src": "techno-7.png"
+        },
+        {
+            "label": "Ionic",
+            "src": "techno-8.png"
+        },
+        {
+            "label": "Bootstrap",
+            "src": "techno-9.png"
+        },
+        {
+            "label": "Java",
+            "src": "techno-10.png"
+        },
+        {
+            "label": "Php",
+            "src": "techno-11.png"
+        },
+        {
+            "label": "Node JS",
+            "src": "techno-12.png"
+        }
+    ],
+    "google_reviews_title" : "Ce que disent nos clients sur Avis Google",
+    "total_reviews": 4, 
+    "average_rating": 4.5,
+    "reviews": [
+        {
+            "author_name": "Samih Habbani",
+            "relative_time_description": "Il y a 6 mois",
+            "rating": 5,
+            "text": "Equipe professionnelle, réactive et à l'écoute. Je recommande les services de Exissia."
+        },
+        {
+            "author_name": "Thérèse Léandre",
+            "relative_time_description": "Il y a 3 mois",
+            "rating": 5,
+            "text": "Très satisfait de notre collaboration avec Exissia à Paris pour le développement de notre application web. Travail de qualité, équipe réactive et professionnelle. Je recommande vivement leurs services !"
+        },
+        {
+            "author_name": "Shaade H",
+            "relative_time_description": "Il y a 3 semaines",
+            "rating": 5,
+            "text": "Excellente expérience avec Exissia à Paris pour le développement de notre application mobile. Service rapide, professionnel et de qualité. Très satisfait du résultat final. Je recommande vivement !"
+        },
+        {
+            "author_name": "Emily White",
+            "relative_time_description": "Il y a 2 jours",
+            "rating": 5,
+            "text": "Très satisfaite du travail réalisé. Je recommande."
+        },
+        {
+            "author_name": "Michel Verd",
+            "relative_time_description": "Il y a 1 semaine",
+            "rating": 4,
+            "text": "Service rapide, mais pourrait être amélioré sur certains aspects."
+        }
+    ],
+    "partners_title" : "Nos partenaires",
+    "partners_description" : "Nous collaborons avec des partenaires de premier plan pour offrir les meilleures solutions à nos clients. Notre réseau de partenaires nous permet de rester à la pointe de la technologie et d'offrir des services innovants, adaptés aux besoins de chacun.",
+    "partners": [
+        {
+            "name": "Partenaire 1",
+            "logo": "partner-1.png",
+            "href": "https://www.zedino.com"
+        }
+    ],
+    "clients_title" : "Nos clients",
+    "clients_description" : "Nous sommes fiers de travailler avec des clients prestigieux et de leur offrir des services qui répondent à leurs attentes élevées.Notre objectif est de construire des relations solides et durables avec chacun de nos clients.",
+    "clients": [
+        {
+            "name": "JcDecaux",
+            "logo": "client-1.png",
+            "href": "https://www.jcdecaux.fr/"
+
+        },
+        {
+            "name": "Engie",
+            "logo": "client-2.png",
+            "href": "https://particuliers.engie.fr/"
+
+        },
+        {
+            "name": "Groupe M6",
+            "logo": "client-3.png",
+            "href": "https://www.groupem6.fr/"
+
+        },
+        {
+            "name": "L'oréal",
+            "logo": "client-4.png",
+            "href": "https://www.loreal-paris.fr/"
+
+        },
+        {
+            "name": "Société générale",
+            "logo": "client-5.png",
+            "href": "https://particuliers.sg.fr/"
+
+        }
+    ],
+    "values_title" : "Nos valeurs",
+    "values": [
+        {
+            "icon": "fas fa-handshake",
+            "name": "Confiance"
+        },
+        {
+            "icon": "fas fa-balance-scale",
+            "name": "Éthique"
+        },
+        {
+            "icon": "fas fa-users",
+            "name": "Collaboration"
+        },
+        {
+            "icon": "fas fa-rocket",
+            "name": "Innovation"
+        },
+        {
+            "icon": "fas fa-heart",
+            "name": "Engagement"
+        }
+    ],
+    "pages": {
+        "home": {
+            "slogan": "Solutions IT && </br> AgileSquads",
+            "company_image": "https://source.unsplash.com/500x500/?office,computer",
+            "services": {
+                "title": "De la valeur pour nos clients",
+                "description": "Exissia est un acteur éprouvé du développement d'applications et logiciels métiers. Nous sommes des experts en extension d'équipe au sein de vos collaborateurs, en AgileSquads et en services de consulting IT."
+              },
+            "service_cards": [
+                {
+                    "image": "services-1.jpg",
+                    "title": "Renforts d'équipe",
+                    "description": "<b>- Extensions d'équipe </b> : Notre équipe technique talentueuse devient une extension de votre équipe, vous faisant gagner du temps et des ressources sur le recrutement et l'intégration. </br><b>- Développement à long terme</b> : notre équipe s'investit autant dans la réussite de votre projet que votre propre équipe."
+                },
+                {
+                    "image": "services-2.jpg",
+                    "title": "AgileSquads",
+                    "description": "<b>- Délégation intelligente </b> : pas besoin d'affecter du personnel interne pour créer un projet from scratch. </br><b>- Résultats plus rapides</b> : avec l'approche AgileSquads, des interactions courtes garantissent que chaque étape de votre projet est mise en œuvre à temps. </br><b>- Transparence et contrôle </b> : il est facile de transmettre les exigences à une AgileSquad prête à l'emploi et de vérifier périodiquement l'avancement."
+                },
+                {
+                    "image": "services-3.jpg",
+                    "title": "Consulting IT",
+                    "description": "<b>- Développement de stratégie </b> : obtenez l'aide dont vous avez besoin pour traduire vos objectifs commerciaux en plans technologiques avant de constituer votre équipe.</br> <b>- Évaluation de la situation </b> : recevez un deuxième avis sur les défis auxquels vous êtes confrontés et des recommandations pour aller de l'avant. </br><b>- Préparez-vous à vous associer </b> : nous pouvons vous aider à définir un projet d'une manière qui vous permettra de travailler avec un partenaire technologique sur vos besoins de développement logiciel."
+                }
+            ],
+            "profiles": {
+                "title": "Nos profils",
+                "description": "Nous vous proposons toute une squad de profils experts en adéquation complète avec vos besoins et complètement orientée Produit.",
+                "members": [
+                    {
+                        "name": "Scrum Master",
+                        "photo": "members-1",
+                        "description": "Le Maestro de la team!💡"
+                    },
+                    {
+                        "name": "Devops",
+                        "photo": "members-2",
+                        "description": "Fiabilité, perfs et scaling!🖥️"
+                    },
+                    {
+                        "name": "Coach Agile",
+                        "photo": "members-3",
+                        "description": "Safe, Scrum, Kanban..? 🚀"
+                    },
+                    {
+                        "name": "Product Owner",
+                        "photo": "members-4",
+                        "description": "La liaison métier indispensable!💡"
+                    },
+                    {
+                        "name": "BackEnd Developer",
+                        "photo": "members-5",
+                        "description": "Y'a bien une API pour faire ça!🖥️"
+                    },
+                    {
+                        "name": "UX / UI",
+                        "photo": "members-6",
+                        "description": "De l'émotion dans nos apps! 🚀"
+                    },
+                    {
+                        "name": "Business Analyst",
+                        "photo": "members-7",
+                        "description": "\"Challenger\" est le maître mot!💡"
+                    },
+                    {
+                        "name": "FrontEnd Developer",
+                        "photo": "members-8",
+                        "description": "Compatible tous supports!🤓"
+                    },
+                    {
+                        "name": "Software Quality Analyst",
+                        "photo": "members-9",
+                        "description": "J'assure vos arrières!"
+                    }
+                ]
+            },
+            "approach": {
+                "title": "Notre Approche",
+                "description": "Nous couvrons tous les aspects du processus d'ingénierie logicielle, à commencer par votre stratégie. Ainsi, pendant que nous concevons, développons et prenons en charge vos produits logiciels, vous pouvez vous concentrer sur votre cœur de métier.",
+                "content": "Notre approche est centrée sur le client, avec des solutions sur mesure.",
+                "points": [
+                    {
+                        "icon": "fas fa-cogs",
+                        "title": "Solutions sur Mesure",
+                        "description": "Nous créons des solutions adaptées à vos besoins spécifiques."
+                    },
+                    {
+                        "icon": "fas fa-users",
+                        "title": "Équipe Dédiée",
+                        "description": "Une équipe d'experts à votre service et disponibles pour tout renseignement."
+                    },
+                    {
+                        "icon": "fas fa-chart-line",
+                        "title": "Efficacité et Performance",
+                        "description": "Optimisation de vos systèmes pour une meilleure performance."
+                    },
+                    {
+                        "icon": "fas fa-shield-alt",
+                        "title": "Sécurité",
+                        "description": "Priorité à la sécurité de vos données en tout temps."
+                    }
+                ]
+            },
+            "contact": {
+                "header_title": "Nous conctacter",
+                "title": "Contact",
+                "description": "Vous pouvez nous joindre à tout moment, Nous vous aiderons à trouver la bonne solution humaine et technique pour votre projet.",
+                "address": "6 RUE D'ARMAILLE </br> 75017 PARIS",
+                "email": "contact@exissia.com",
+                "phone": "+33 (0)6 79 51 95 95"
+            },
+            "map": {
+                "latitude": 48.878660,
+                "longitude": 2.293710
+            },
+            "legal_title" : "Partie légale",
+            "legal_links": [
+                {
+                    "label": "Conditions Générales d'utilisation",
+                    "page": "condition_generales_utilisation"
+                },
+                {
+                    "label": "Cookies",
+                    "page": "politique_cookies"
+                },
+                {
+                    "label": "Mentions Légales",
+                    "page": "mention_legales"
+                }
+            ],
+            "social_links_title": "Suivez-nous",
+            "social_links": [
+                {
+                    "platform": "twitter",
+                    "url": "",
+                    "icon": "fab fa-twitter"
+                },
+                {
+                    "platform": "linkedin",
+                    "url": "https://www.linkedin.com/company/exissia/",
+                    "icon": "fab fa-linkedin"
+                },
+                {
+                    "platform": "youtube",
+                    "url": "",
+                    "icon": "fab fa-youtube"
+                },
+                {
+                    "platform": "blog",
+                    "url": "https://www.blog.exissia.com",
+                    "icon": "fas fa-blog"
+                }
+            ]
+        },
+        "mention_legales": {
+            "title": "Nos Mentions Légales",
+            "content": {
+                "introduction": "Conformément aux dispositions des Articles 6-III et 19 de la Loi n°2004-575 du 21 juin 2004 pour la Confiance dans l'économie numérique, dite L.C.E.N., il est porté à la connaissance des utilisateurs et visiteurs du site Exissia les présentes mentions légales.",
+                "editor_title": "1 - Éditeur du site",
+                "editor": {
+                    "name": "Exissia",
+                    "address": "6 RUE D'ARMAILLE 75017 PARIS",
+                    "phone": "+33 (0)6 79 51 95 95",
+                    "email": "contact@exissia.com",
+                    "legal_form": "SAS, société par actions simplifiée",
+                    "num_tva": "FR05917800450",
+                    "dir_publication": "ZIAD JAAGOUB"
+                },
+                "publication_manager_title": "2 - Responsable de la publication",
+                "publication_manager": {
+                    "name": "Ziad Jaagoub",
+                    "email": "contact@exissia.com"
+                },
+                "host_title": "3 - Hébergeur du site",
+                "host": {
+                    "name": "Hébergeur Exemple",
+                    "address": "456 Rue Hébergeur, 75002 Paris, France",
+                    "phone": "+33 1 98 76 54 32",
+                    "email": "hebergeur@exemple.com"
+                },
+                "personal_data_title": "4 - Données personnelles",
+                "personal_data": {
+                    "data_treament": "Hébergeur Exemple",
+                    "access_right": "456 Rue Hébergeur, 75002 Paris, France",
+                    "dpo": "+33 1 98 76 54 32"
+                },
+                "cookies_title": "Cookies",
+                "cookies": {
+                    "data_treament": "Hébergeur Exemple"
+                },
+                "intellectual_property_title": "5 - Propriété intellectuelle",
+                "intellectual_property": {
+                    "author_right": "L'ensemble des contenus présents sur ce site, incluant, sans s'y limiter, les textes, images, graphismes, logos, icônes, sons, logiciels, ainsi que leur mise en forme, sont la propriété exclusive de Exissia ou de leurs auteurs respectifs. Ces éléments sont protégés par les lois françaises et internationales relatives à la propriété intellectuelle. Toute reproduction, distribution, modification, adaptation, retransmission ou publication de ces éléments est strictement interdite sans l'autorisation écrite préalable de Exissia. Leur utilisation, sans autorisation préalable, expose le contrevenant à des poursuites judiciaires.",
+                    "brands": "Les marques et logos figurant sur ce site sont déposés par Exissia ou éventuellement par ses partenaires. Toute reproduction totale ou partielle de ces marques ou logos, effectuée à partir des éléments du site sans l'autorisation expresse de Exissia ou de leurs propriétaires, est donc prohibée au sens de l'article L.713-2 du Code de la propriété intellectuelle."
+                },
+                "responsible_limitation_title": "6 - Limitation de responsabilité",
+                "responsible_limitation": {
+                    "information_exactitude": "Exissia s'efforce de fournir sur ce site des informations aussi précises et actualisées que possible. Toutefois, Exissia ne peut garantir l'exactitude, la complétude ou la pertinence des informations présentées sur ce site, qu'elles soient fournies par Exissia ou par des tiers partenaires. En conséquence, Exissia décline toute responsabilité en cas d'inexactitude, d'erreur ou d'omission dans ces informations ainsi que pour tous dommages directs ou indirects résultant de leur utilisation.",
+                    "web_site_utilisation": "L'utilisateur est seul responsable de l'utilisation qu'il fait des contenus et informations présents sur le site. En aucun cas, Exissia ne pourra être tenue responsable des dommages directs ou indirects résultant de l'utilisation de ce site ou d'autres sites qui lui sont liés. Exissia décline également toute responsabilité pour les interruptions du site, les dysfonctionnements techniques, ou tout dommage résultant de l'intrusion frauduleuse d'un tiers ayant entraîné une modification des informations mises à disposition sur le site."
+                },
+                "applicable_right_title": "7 - Droit applicable",
+                "applicable_right": {
+                    "info": "Le présent site et ses mentions légales sont régis par le droit français. Tout litige relatif à l'utilisation de ce site sera soumis à la compétence exclusive des tribunaux français. En cas de litige, la langue de référence est le français."
+                },
+                "credits_title": "8 - Crédits",
+                "credits": "Les mentions légales ont été générées par Exissia. Les images et illustrations sont fournies par Exissia."
+            }
+        },
+        "condition_generales_utilisation": {
+            "title": "Nos Conditions Générales d'utilisation",
+            "content": {
+                "introduction": "Voici les conditions générales d'utilisation de notre site.",
+                "section_1_title": "Objet",
+                "section_1": "Les présentes conditions générales d'utilisation déterminent les règles d'accès et les modalités d'utilisation du site Exissia.",
+                "section_2_title": "Acceptation des Conditions",
+                "section_2": "L'utilisation du site implique l'acceptation pleine et entière des présentes conditions générales d'utilisation.",
+                "section_3_title": "Services Proposés",
+                "section_3": "Exissia fournit des services de conseils en systèmes et logiciels informatiques, de développement de sites web et de logiciels.",
+                "section_4_title": "Responsabilité",
+                "section_4": "Exissia ne saurait être tenu responsable des dommages directs et indirects causés au matériel de l'utilisateur, lors de l'accès au site Exissia.",
+                "section_5_title": "Données Personnelles",
+                "section_5": "Exissia s'engage à respecter la confidentialité des données personnelles communiquées par les utilisateurs du site.",
+                "section_6_title": "Modifications des Conditions",
+                "section_6": "Exissia se réserve le droit de modifier à tout moment les présentes conditions générales d'utilisation."
+            }
+        },
+        "politique_cookies": {
+            "title": "Politique de Cookies",
+            "content": {
+                "introduction": "Nous utilisons des cookies pour améliorer votre expérience sur notre site. Voici comment nous les utilisons et comment vous pouvez les contrôler.",
+                "section_1_title": "Utilisation des Cookies",
+                "section_1": "Les cookies sont utilisés pour analyser le trafic et améliorer la performance du site.",
+                "section_2_title": "Désactivation des Cookies",
+                "section_2": "Vous pouvez désactiver les cookies en modifiant les paramètres de votre navigateur.",
+                "section_3_title": "Types de Cookies Utilisés",
+                "section_3": "Nous utilisons des cookies analytiques, des cookies fonctionnels et des cookies de publicité."
+            }
+        }
+    }
+}
