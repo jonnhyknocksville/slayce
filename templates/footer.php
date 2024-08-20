@@ -79,26 +79,35 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 <!-- JS d'AOS -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+<!-- CountUp.js -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/countup.js/1.9.3/countUp.min.js"></script>
+
 <script src="./js/app.js"></script>
-<script>
+<script type="module">
     // Initialisation d'AOS
     AOS.init();
 
     // Script pour le défilement fluide avec compensation de la barre de navigation
-    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-        anchor.addEventListener('click', function (e) {
-            e.preventDefault();
-            const targetId = this.getAttribute('href').substring(1);
-            const targetElement = document.getElementById(targetId);
-            if (targetElement) {
-                const offsetPosition = targetElement.offsetTop - 80; // Adjust this value based on your navbar height
-                window.scrollTo({
-                    top: offsetPosition,
-                    behavior: 'smooth'
-                });
+    import { CountUp } from 'https://cdnjs.cloudflare.com/ajax/libs/countup.js/2.0.7/countUp.min.js';
+
+    document.addEventListener('DOMContentLoaded', function() {
+        const counters = document.querySelectorAll('.count');
+        counters.forEach(counter => {
+            const target = parseInt(counter.getAttribute('data-target'), 10);
+            if (!isNaN(target)) {
+                const countUp = new CountUp(counter, target);
+                if (!countUp.error) {
+                    countUp.start();
+                } else {
+                    console.error(countUp.error);
+                }
+            } else {
+                console.error('Invalid target value:', target);
             }
         });
     });
+
 </script>
+
 </body>
 </html>

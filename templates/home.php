@@ -1,9 +1,12 @@
 
-<main class="container-fluid pb-5 px-0">
+<main class="container-fluid pt-5 px-0">
 
     <?php
-        require_once __DIR__ . '/sections/01-slogan.php';
-        require_once __DIR__ . '/sections/02-services.php';
+        // require_once __DIR__ . '/sections/01-slogan.php';
+        require_once __DIR__ . '/sections/12-caroussel.php';
+        require_once __DIR__ . '/sections/11-presentation.php';
+        require_once __DIR__ . '/sections/13-full-services.php';
+        require_once __DIR__ . '/sections/14-projects.php';
         require_once __DIR__ . '/sections/03-profils.php';
         require_once __DIR__ . '/sections/04-approach.php';
         require_once __DIR__ . '/sections/05-technologies.php';

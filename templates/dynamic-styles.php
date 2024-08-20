@@ -390,3 +390,18 @@ footer a {
     font-size:1rem !important;
 
 }  
+
+{#
+    caroussel
+#}
+
+.carousel-item {
+    min-height: 290px !important; /* Hauteur fixe du carrousel */
+}
+
+.carousel-item > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}

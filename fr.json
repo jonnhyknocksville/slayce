@@ -7,9 +7,9 @@
         "header-page": "header-page.jpg",
         "header-page-alt": "Image de l'entreprise",
         "description": "",
-        "text_color" : "#2B2B2B",
-        "title_color" : "#34303B",
-        "primary_color": "#fff",
+        "text_color": "#2B2B2B",
+        "title_color": "#34303B",
+        "primary_color": "#1d213a",
         "secondary_color": "#e5f1fa",
         "ternary_color": "#003260",
         "bg_body_color": "#fff",
@@ -19,8 +19,8 @@
         "info_color": "#3498DB",
         "font_family": "Roboto:wght@400;700"
     },
-    "languages_title" : "Langues",
-    "languages_title_aria" : "Modifiez la langue",
+    "languages_title": "Langues",
+    "languages_title_aria": "Modifiez la langue",
     "languages": [
         {
             "code": "fr",
@@ -43,7 +43,7 @@
             "flag": "ar.png"
         }
     ],
-    "navigation_title" : "Navigation",
+    "navigation_title": "Navigation",
     "navigation": [
         {
             "label": "Accueil",
@@ -87,8 +87,77 @@
     "button-contact": "Contactez-nous",
     "button-services-aria-label": "Lien vers nos services",
     "button-contact-aria-label": "Lien vers nos coordonnées",
-    "technologies_title" : "Technologies que nous utilisons",
-    "technologies_description" : "Nous employons des technologies modernes et éprouvées pour garantir des solutions de qualité.",
+    "caroussel": [
+        {
+            "title": "Votre entreprise sur internet",
+            "text": "Zedino est une Agence Web de création de sites internet et applications mobiles",
+            "button_1": "En savoir plus",
+            "button_2": "Devis immédiat"
+        },
+        {
+            "title": "Plus qu'un site, votre business",
+            "text": "Sites e-commerce sécurisés (https)</br> Sites de réservations en ligne sécurisés (https) </br> Applications mobiles </br> Maintenance ...",
+            "button_1": "En savoir plus",
+            "button_2": "Devis immédiat"
+        }
+    ],
+    "presentation_title": "Agence Digitale & Technique",
+    "presentation_img": "about.png",
+    "presentation_alt": "Présentation de l'agence",
+    "presentation": [
+        {
+            "key_number": "<h3><span>10</span></h3><h4>ans<br>d'expérience</h4>",
+            "text": "<b>Agence Web</b>, notre équipe maîtrise les stratégies de communications digitales et vous accompagne pour la création de vos sites internet et applications mobiles.<b>Experts techniques en développement</b>, nous vous proposons des solutions sur mesure clé en main."
+        },
+        {
+            "key_number": "<h3><span>52+</span></h3><h4>clients<br>satisfaits</h4>",
+            "text": "Analyse de vos besoins et conseils, <em>UX</em>, conception, design, développement, mais aussi, <em>SEO, inbound marketing</em>; nous couvrons l'ensemble des besoins liés à votre projet digital, puis, nous en assurons l'hébergement, le suivi et la maintenance durant toute son utilisation."
+        }
+    ],
+    "services_details": [
+        {
+            "icon": "fas fa-laptop-code",
+            "title": "Développement",
+            "text": "Nous relevons tous les défis techniques. Consultez nous!"
+        },
+        {
+            "icon": "fas fa-globe",
+            "title": "Site Vitrine",
+            "text": "Imaginer, créer et promouvoir votre site internet."
+        },
+        {
+            "icon": "fas fa-shopping-cart",
+            "title": "E-commerce",
+            "text": "Boutique clé en main pour gérer et vendre vos produits."
+        },
+        {
+            "icon": "fas fa-mobile-alt",
+            "title": "App Mobile",
+            "text": "Votre présence dans le Play Store et l'App Store."
+        },
+        {
+            "icon": "fas fa-desktop",
+            "title": "RW Design",
+            "text": "Responsive Web Design, compatible tous supports."
+        },
+        {
+            "icon": "fas fa-headset",
+            "title": "Maintenance",
+            "text": "Hébergement, suivi et maintenance avec une GTR de 6h."
+        },
+        {
+            "icon": "fas fa-envelope",
+            "title": "E-mail",
+            "text": "Création et gestion des boites @votresociete.com."
+        },
+        {
+            "icon": "fas fa-newspaper",
+            "title": "Newsletter",
+            "text": "Création et suivi de vos campagnes newsletter."
+        }
+    ],
+    "technologies_title": "Technologies que nous utilisons",
+    "technologies_description": "Nous employons des technologies modernes et éprouvées pour garantir des solutions de qualité.",
     "technologies": [
         {
             "label": "Angular",
@@ -139,8 +208,31 @@
             "src": "techno-12.png"
         }
     ],
-    "google_reviews_title" : "Ce que disent nos clients sur Avis Google",
-    "total_reviews": 4, 
+    "projects": [
+        {
+            "id": "project1",
+            "title": "Projet 1: Site e-commerce",
+            "description": "Description du projet e-commerce avec fonctionnalités avancées.",
+            "image": "project1.jpg",
+            "link": "https://example.com/project1"
+        },
+        {
+            "id": "project2",
+            "title": "Projet 2: Application mobile",
+            "description": "Description de l'application mobile développée pour iOS et Android.",
+            "image": "project2.jpg",
+            "link": "https://example.com/project2"
+        },
+        {
+            "id": "project3",
+            "title": "Projet 3: Solution SaaS",
+            "description": "Description de la solution SaaS développée pour automatiser les processus métier.",
+            "image": "project3.jpg",
+            "link": "https://example.com/project3"
+        }
+    ],
+    "google_reviews_title": "Ce que disent nos clients sur Avis Google",
+    "total_reviews": 4,
     "average_rating": 4.5,
     "reviews": [
         {
@@ -174,8 +266,8 @@
             "text": "Service rapide, mais pourrait être amélioré sur certains aspects."
         }
     ],
-    "partners_title" : "Nos partenaires",
-    "partners_description" : "Nous collaborons avec des partenaires de premier plan pour offrir les meilleures solutions à nos clients. Notre réseau de partenaires nous permet de rester à la pointe de la technologie et d'offrir des services innovants, adaptés aux besoins de chacun.",
+    "partners_title": "Nos partenaires",
+    "partners_description": "Nous collaborons avec des partenaires de premier plan pour offrir les meilleures solutions à nos clients. Notre réseau de partenaires nous permet de rester à la pointe de la technologie et d'offrir des services innovants, adaptés aux besoins de chacun.",
     "partners": [
         {
             "name": "Zedino",
@@ -183,41 +275,36 @@
             "href": "https://www.zedino.com"
         }
     ],
-    "clients_title" : "Nos clients",
-    "clients_description" : "Nous sommes fiers de travailler avec des clients prestigieux et de leur offrir des services qui répondent à leurs attentes élevées.Notre objectif est de construire des relations solides et durables avec chacun de nos clients.",
+    "clients_title": "Nos clients",
+    "clients_description": "Nous sommes fiers de travailler avec des clients prestigieux et de leur offrir des services qui répondent à leurs attentes élevées.Notre objectif est de construire des relations solides et durables avec chacun de nos clients.",
     "clients": [
         {
             "name": "JcDecaux",
             "logo": "client-1.png",
             "href": "https://www.jcdecaux.fr/"
-
         },
         {
             "name": "Engie",
             "logo": "client-2.png",
             "href": "https://particuliers.engie.fr/"
-
         },
         {
             "name": "Groupe M6",
             "logo": "client-3.png",
             "href": "https://www.groupem6.fr/"
-
         },
         {
             "name": "L'oréal",
             "logo": "client-4.png",
             "href": "https://www.loreal-paris.fr/"
-
         },
         {
             "name": "Société générale",
             "logo": "client-5.png",
             "href": "https://particuliers.sg.fr/"
-
         }
     ],
-    "values_title" : "Nos valeurs",
+    "values_title": "Nos valeurs",
     "values": [
         {
             "icon": "fas fa-handshake",
@@ -247,7 +334,7 @@
             "services": {
                 "title": "De la valeur pour nos clients",
                 "description": "Exissia est un acteur éprouvé du développement d'applications et logiciels métiers. Nous sommes des experts en extension d'équipe au sein de vos collaborateurs, en AgileSquads et en services de consulting IT."
-              },
+            },
             "service_cards": [
                 {
                     "image": "services-1.jpg",
@@ -323,13 +410,13 @@
                 "points": [
                     {
                         "icon": "fas fa-cogs",
-                        "title": "Solutions sur Mesure",
-                        "description": "Nous créons des solutions adaptées à vos besoins spécifiques."
+                        "title": "Analyse et conceptualisation",
+                        "description": "Analyse, conception, et création de maquettes pour des solutions sur mesure."
                     },
                     {
                         "icon": "fas fa-users",
-                        "title": "Équipe Dédiée",
-                        "description": "Une équipe d'experts à votre service et disponibles pour tout renseignement."
+                        "title": "Conception et développements",
+                        "description": "Technologies adaptées et développement avec suivi en temps réel."
                     },
                     {
                         "icon": "fas fa-chart-line",
@@ -338,8 +425,8 @@
                     },
                     {
                         "icon": "fas fa-shield-alt",
-                        "title": "Sécurité",
-                        "description": "Priorité à la sécurité de vos données en tout temps."
+                        "title": "Promotion et maintenance",
+                        "description": "Optimisation SEO/SEA, formation réseaux sociaux, hébergement et maintenance assurés."
                     }
                 ]
             },
@@ -348,14 +435,14 @@
                 "title": "Contact",
                 "description": "Vous pouvez nous joindre à tout moment, Nous vous aiderons à trouver la bonne solution humaine et technique pour votre projet.",
                 "address": "6 RUE D'ARMAILLE </br> 75017 PARIS",
-                "email": "contact@exissia.com",
+                "email": "zedino email",
                 "phone": "+33 (0)6 79 51 95 95"
             },
             "map": {
                 "latitude": 48.878660,
                 "longitude": 2.293710
             },
-            "legal_title" : "Partie légale",
+            "legal_title": "Partie légale",
             "legal_links": [
                 {
                     "label": "Conditions Générales d'utilisation",
@@ -403,7 +490,7 @@
                     "name": "Exissia",
                     "address": "6 RUE D'ARMAILLE 75017 PARIS",
                     "phone": "+33 (0)6 79 51 95 95",
-                    "email": "contact@exissia.com",
+                    "email": "zedino email",
                     "legal_form": "SAS, société par actions simplifiée",
                     "num_tva": "FR05917800450",
                     "dir_publication": "ZIAD JAAGOUB"
@@ -411,7 +498,7 @@
                 "publication_manager_title": "2 - Responsable de la publication",
                 "publication_manager": {
                     "name": "Ziad Jaagoub",
-                    "email": "contact@exissia.com"
+                    "email": "zedino email"
                 },
                 "host_title": "3 - Hébergeur du site",
                 "host": {
