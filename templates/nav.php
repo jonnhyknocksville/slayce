@@ -1,5 +1,5 @@
 <nav class="navbar navbar-expand-lg navbar-dark fixed-top px-5">
-    <div class="row col-md-8 mx-auto">
+    <div class="row col-md-8 mx-auto justify-content-between justify-content-lg-start">
         <a class="navbar-brand" href="?page=home">
             <img src="./images/<?php echo htmlspecialchars($config['site']['logo']); ?>" alt="Logo"
                 style="height: 100px;">
@@ -27,7 +27,7 @@
                     </a>
                     <div class="dropdown-menu dropdown-menu-right" aria-labelledby="languageDropdown">
                         <?php foreach ($config['languages'] as $language): ?>
-                            <a class="dropdown-item" href="?lang=<?php echo htmlspecialchars($language['code']); ?>">
+                            <a class="text-dark dropdown-item" href="?lang=<?php echo htmlspecialchars($language['code']); ?>">
                                 <img src="./images/languages/<?php echo htmlspecialchars($language['flag']); ?>"
                                     alt="<?php echo htmlspecialchars($language['name']); ?>"
                                     style="width: 20px; height: 20px;">

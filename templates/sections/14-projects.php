@@ -1,14 +1,14 @@
-<div class="container py-5">
+<section class="container py-5" id="projects">
     <!-- Section Header -->
     <div class="text-center mb-4">
-        <h2 class="section-title">Nos Projets Réalisés</h2>
+        <h2 class="section-title"></h2>
     </div>
 
     <!-- Tab Bar -->
     <ul class="nav nav-tabs justify-content-center" id="projectTab" role="tablist">
         <?php foreach ($config["projects"] as $index => $project): ?>
             <li class="nav-item">
-                <a class="nav-link <?= $index === 0 ? 'active' : ''; ?>" id="<?= $project['id']; ?>-tab" data-toggle="tab" href="#<?= $project['id']; ?>" role="tab" aria-controls="<?= $project['id']; ?>" aria-selected="<?= $index === 0 ? 'true' : 'false'; ?>">
+                <a class="nav-link project <?= $index === 0 ? 'active' : ''; ?>" id="<?= $project['id']; ?>-tab" data-toggle="tab" href="#<?= $project['id']; ?>" role="tab" aria-controls="<?= $project['id']; ?>" aria-selected="<?= $index === 0 ? 'true' : 'false'; ?>">
                     <?= htmlspecialchars($project['title']); ?>
                 </a>
             </li>
@@ -20,8 +20,8 @@
         <?php foreach ($config["projects"] as $index => $project): ?>
             <div class="tab-pane fade <?= $index === 0 ? 'show active' : ''; ?>" id="<?= $project['id']; ?>" role="tabpanel" aria-labelledby="<?= $project['id']; ?>-tab">
                 <div class="row align-items-center">
-                    <div class="col-md-6" data-aos="fade-right">
-                        <img src="images/<?= htmlspecialchars($project['image']); ?>" class="img-fluid rounded" alt="<?= htmlspecialchars($project['title']); ?>">
+                    <div class="d-flex justify-content-center col-md-6" data-aos="fade-right">
+                        <img style="max-height:150px" src="images/projects/<?= htmlspecialchars($project['image']); ?>" class="img-fluid rounded" alt="<?= htmlspecialchars($project['title']); ?>">
                     </div>
                     <div class="col-md-6" data-aos="fade-left">
                         <h3><?= htmlspecialchars($project['title']); ?></h3>
@@ -32,4 +32,4 @@
             </div>
         <?php endforeach; ?>
     </div>
-</div>
+</section>

@@ -29,12 +29,13 @@
     <?php
         require_once __DIR__ . '/nav.php';
     ?>
-
-    <?php if (!empty($config['site']['description'])): ?>
+    <!--
+    {# <?php if (!empty($config['site']['description'])): ?> #}
         <header class="bg-dark text-white text-center py-5" id="home">
             <div class="container">
                 <h1><?php echo htmlspecialchars($config['site']['title']); ?></h1>
                 <p><?php echo htmlspecialchars($config['site']['description']); ?></p>
             </div>
         </header>
-    <?php endif; ?>
+    {# <?php endif; ?>  #}
+    -->

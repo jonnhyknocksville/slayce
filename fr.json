@@ -1,17 +1,18 @@
 {
     "site": {
-        "title": "Exissia",
+        "title": "Zedino",
         "favicon": "favicon.png",
         "logo": "logo.png",
         "logo_footer": "logo_footer.png",
         "header-page": "header-page.jpg",
         "header-page-alt": "Image de l'entreprise",
-        "description": "",
-        "text_color": "#2B2B2B",
+        "description": "Nous transformons votre entreprise en site internet, App Mobile et Web App ! ZEDINO, l'Agence Web Technique, partenaire de votre monde virtuel.",
+        "text_color": "#fff",
+        "text_color_dark": "#666",
         "title_color": "#34303B",
         "primary_color": "#1d213a",
-        "secondary_color": "#e5f1fa",
-        "ternary_color": "#003260",
+        "secondary_color": "#18191b",
+        "ternary_color": "#FD5D38",
         "bg_body_color": "#fff",
         "error_color": "#E74C3C",
         "success_color": "#2ECC71",
@@ -75,7 +76,7 @@
         },
         {
             "label": "Blog",
-            "href": "https://www.blog.exissia.com"
+            "href": "https://www.blog.zedino.com"
         },
         {
             "label": "Contact",
@@ -92,13 +93,17 @@
             "title": "Votre entreprise sur internet",
             "text": "Zedino est une Agence Web de création de sites internet et applications mobiles",
             "button_1": "En savoir plus",
-            "button_2": "Devis immédiat"
+            "button_2": "Devis immédiat",
+            "button_1_href": "#presentation",
+            "button_2_href": "#devis"
         },
         {
             "title": "Plus qu'un site, votre business",
             "text": "Sites e-commerce sécurisés (https)</br> Sites de réservations en ligne sécurisés (https) </br> Applications mobiles </br> Maintenance ...",
             "button_1": "En savoir plus",
-            "button_2": "Devis immédiat"
+            "button_2": "Devis immédiat",
+            "button_1_href": "#presentation",
+            "button_2_href": "#devis"
         }
     ],
     "presentation_title": "Agence Digitale & Technique",
@@ -110,7 +115,7 @@
             "text": "<b>Agence Web</b>, notre équipe maîtrise les stratégies de communications digitales et vous accompagne pour la création de vos sites internet et applications mobiles.<b>Experts techniques en développement</b>, nous vous proposons des solutions sur mesure clé en main."
         },
         {
-            "key_number": "<h3><span>52+</span></h3><h4>clients<br>satisfaits</h4>",
+            "key_number": "<h3><span>52</span></h3><h4>clients<br>satisfaits</h4>",
             "text": "Analyse de vos besoins et conseils, <em>UX</em>, conception, design, développement, mais aussi, <em>SEO, inbound marketing</em>; nous couvrons l'ensemble des besoins liés à votre projet digital, puis, nous en assurons l'hébergement, le suivi et la maintenance durant toute son utilisation."
         }
     ],
@@ -208,25 +213,26 @@
             "src": "techno-12.png"
         }
     ],
+    "projects_title": "Nos projets réalisés",
     "projects": [
         {
             "id": "project1",
-            "title": "Projet 1: Site e-commerce",
-            "description": "Description du projet e-commerce avec fonctionnalités avancées.",
+            "title": "Projet 1: Application web",
+            "description": "Développement d'une application web pour l'entreprise Qualicolis",
             "image": "project1.jpg",
-            "link": "https://example.com/project1"
+            "link": "https://www.tiktok.com/@sidoustandup/playlist/Qualicolis%20%F0%9F%9A%9B%F0%9F%93%A6-7389968823123757856"
         },
         {
             "id": "project2",
-            "title": "Projet 2: Application mobile",
-            "description": "Description de l'application mobile développée pour iOS et Android.",
+            "title": "Projet 2: LMS",
+            "description": "Développement d'un LMS pour l'école d'art Itecom",
             "image": "project2.jpg",
-            "link": "https://example.com/project2"
+            "link": "https://www.itecom-artdesign.com/"
         },
         {
             "id": "project3",
-            "title": "Projet 3: Solution SaaS",
-            "description": "Description de la solution SaaS développée pour automatiser les processus métier.",
+            "title": "Projet 3: Plateforme de gestion de formation",
+            "description": "Développement d'une plateforme de gestion pour un centre de formation",
             "image": "project3.jpg",
             "link": "https://example.com/project3"
         }
@@ -239,25 +245,25 @@
             "author_name": "Samih Habbani",
             "relative_time_description": "Il y a 6 mois",
             "rating": 5,
-            "text": "Equipe professionnelle, réactive et à l'écoute. Je recommande les services de Exissia."
+            "text": "Equipe professionnelle, réactive et à l'écoute. Je recommande les services de Zedino."
         },
         {
             "author_name": "Thérèse Léandre",
             "relative_time_description": "Il y a 3 mois",
             "rating": 5,
-            "text": "Très satisfait de notre collaboration avec Exissia à Paris pour le développement de notre application web. Travail de qualité, équipe réactive et professionnelle. Je recommande vivement leurs services !"
+            "text": "Très satisfait de notre collaboration avec Zedino à Paris pour le développement de notre application web. Travail de qualité, équipe réactive et professionnelle. Je recommande vivement leurs services !"
         },
         {
             "author_name": "Shaade H",
             "relative_time_description": "Il y a 3 semaines",
             "rating": 5,
-            "text": "Excellente expérience avec Exissia à Paris pour le développement de notre application mobile. Service rapide, professionnel et de qualité. Très satisfait du résultat final. Je recommande vivement !"
+            "text": "Excellente expérience avec Zedino à Paris pour le développement de notre application mobile. Service rapide, professionnel et de qualité. Très satisfait du résultat final. Je recommande vivement !"
         },
         {
             "author_name": "Emily White",
             "relative_time_description": "Il y a 2 jours",
             "rating": 5,
-            "text": "Très satisfaite du travail réalisé. Je recommande."
+            "text": "Très satisfaite du travail réalisé. Je recommande les services de Zedino."
         },
         {
             "author_name": "Michel Verd",
@@ -279,29 +285,19 @@
     "clients_description": "Nous sommes fiers de travailler avec des clients prestigieux et de leur offrir des services qui répondent à leurs attentes élevées.Notre objectif est de construire des relations solides et durables avec chacun de nos clients.",
     "clients": [
         {
-            "name": "JcDecaux",
+            "name": "QualisColis",
             "logo": "client-1.png",
-            "href": "https://www.jcdecaux.fr/"
+            "href": "https://www.tiktok.com/@sidoustandup/playlist/Qualicolis%20%F0%9F%9A%9B%F0%9F%93%A6-7389968823123757856"
         },
         {
-            "name": "Engie",
+            "name": "Itecom",
             "logo": "client-2.png",
-            "href": "https://particuliers.engie.fr/"
+            "href": "https://www.itecom-artdesign.com/"
         },
         {
-            "name": "Groupe M6",
+            "name": "Formation WS",
             "logo": "client-3.png",
-            "href": "https://www.groupem6.fr/"
-        },
-        {
-            "name": "L'oréal",
-            "logo": "client-4.png",
-            "href": "https://www.loreal-paris.fr/"
-        },
-        {
-            "name": "Société générale",
-            "logo": "client-5.png",
-            "href": "https://particuliers.sg.fr/"
+            "href": "https://formationws.fr/"
         }
     ],
     "values_title": "Nos valeurs",
@@ -333,7 +329,7 @@
             "company_image": "https://source.unsplash.com/500x500/?office,computer",
             "services": {
                 "title": "De la valeur pour nos clients",
-                "description": "Exissia est un acteur éprouvé du développement d'applications et logiciels métiers. Nous sommes des experts en extension d'équipe au sein de vos collaborateurs, en AgileSquads et en services de consulting IT."
+                "description": "Zedino est un acteur éprouvé du développement d'applications et logiciels métiers. Nous sommes des experts en extension d'équipe au sein de vos collaborateurs, en AgileSquads et en services de consulting IT."
             },
             "service_cards": [
                 {
@@ -434,7 +430,7 @@
                 "header_title": "Nous conctacter",
                 "title": "Contact",
                 "description": "Vous pouvez nous joindre à tout moment, Nous vous aiderons à trouver la bonne solution humaine et technique pour votre projet.",
-                "address": "6 RUE D'ARMAILLE </br> 75017 PARIS",
+                "address": "47 BD LALLA YACOUT </br> 20000 CASABLANCA",
                 "email": "zedino email",
                 "phone": "+33 (0)6 79 51 95 95"
             },
@@ -466,7 +462,7 @@
                 },
                 {
                     "platform": "linkedin",
-                    "url": "https://www.linkedin.com/company/exissia/",
+                    "url": "https://www.linkedin.com/company/Zedino/",
                     "icon": "fab fa-linkedin"
                 },
                 {
@@ -476,7 +472,7 @@
                 },
                 {
                     "platform": "blog",
-                    "url": "https://www.blog.exissia.com",
+                    "url": "https://www.blog.Zedino.com",
                     "icon": "fas fa-blog"
                 }
             ]
@@ -484,11 +480,11 @@
         "mention_legales": {
             "title": "Nos Mentions Légales",
             "content": {
-                "introduction": "Conformément aux dispositions des Articles 6-III et 19 de la Loi n°2004-575 du 21 juin 2004 pour la Confiance dans l'économie numérique, dite L.C.E.N., il est porté à la connaissance des utilisateurs et visiteurs du site Exissia les présentes mentions légales.",
+                "introduction": "Conformément aux dispositions des Articles 6-III et 19 de la Loi n°2004-575 du 21 juin 2004 pour la Confiance dans l'économie numérique, dite L.C.E.N., il est porté à la connaissance des utilisateurs et visiteurs du site Zedino les présentes mentions légales.",
                 "editor_title": "1 - Éditeur du site",
                 "editor": {
-                    "name": "Exissia",
-                    "address": "6 RUE D'ARMAILLE 75017 PARIS",
+                    "name": "Zedino",
+                    "address": "47 BD LALLA YACOUT 20000 CASABLANCA MAROC",
                     "phone": "+33 (0)6 79 51 95 95",
                     "email": "zedino email",
                     "legal_form": "SAS, société par actions simplifiée",
@@ -502,37 +498,37 @@
                 },
                 "host_title": "3 - Hébergeur du site",
                 "host": {
-                    "name": "Hébergeur Exemple",
-                    "address": "456 Rue Hébergeur, 75002 Paris, France",
-                    "phone": "+33 1 98 76 54 32",
+                    "name": "OVH CLOUD",
+                    "address": "2, rue Kellermann, 59100 Roubaix",
+                    "phone": "+33 9 72 10 10 07",
                     "email": "hebergeur@exemple.com"
                 },
                 "personal_data_title": "4 - Données personnelles",
                 "personal_data": {
-                    "data_treament": "Hébergeur Exemple",
-                    "access_right": "456 Rue Hébergeur, 75002 Paris, France",
-                    "dpo": "+33 1 98 76 54 32"
+                    "data_treament": "OVH CLOUD",
+                    "access_right": "2, rue Kellermann, 59100 Roubaix",
+                    "dpo": "+33 9 72 10 10 07"
                 },
                 "cookies_title": "Cookies",
                 "cookies": {
-                    "data_treament": "Hébergeur Exemple"
+                    "data_treament": "OVH CLOUD"
                 },
                 "intellectual_property_title": "5 - Propriété intellectuelle",
                 "intellectual_property": {
-                    "author_right": "L'ensemble des contenus présents sur ce site, incluant, sans s'y limiter, les textes, images, graphismes, logos, icônes, sons, logiciels, ainsi que leur mise en forme, sont la propriété exclusive de Exissia ou de leurs auteurs respectifs. Ces éléments sont protégés par les lois françaises et internationales relatives à la propriété intellectuelle. Toute reproduction, distribution, modification, adaptation, retransmission ou publication de ces éléments est strictement interdite sans l'autorisation écrite préalable de Exissia. Leur utilisation, sans autorisation préalable, expose le contrevenant à des poursuites judiciaires.",
-                    "brands": "Les marques et logos figurant sur ce site sont déposés par Exissia ou éventuellement par ses partenaires. Toute reproduction totale ou partielle de ces marques ou logos, effectuée à partir des éléments du site sans l'autorisation expresse de Exissia ou de leurs propriétaires, est donc prohibée au sens de l'article L.713-2 du Code de la propriété intellectuelle."
+                    "author_right": "L'ensemble des contenus présents sur ce site, incluant, sans s'y limiter, les textes, images, graphismes, logos, icônes, sons, logiciels, ainsi que leur mise en forme, sont la propriété exclusive de Zedino ou de leurs auteurs respectifs. Ces éléments sont protégés par les lois françaises et internationales relatives à la propriété intellectuelle. Toute reproduction, distribution, modification, adaptation, retransmission ou publication de ces éléments est strictement interdite sans l'autorisation écrite préalable de Zedino. Leur utilisation, sans autorisation préalable, expose le contrevenant à des poursuites judiciaires.",
+                    "brands": "Les marques et logos figurant sur ce site sont déposés par Zedino ou éventuellement par ses partenaires. Toute reproduction totale ou partielle de ces marques ou logos, effectuée à partir des éléments du site sans l'autorisation expresse de Zedino ou de leurs propriétaires, est donc prohibée au sens de l'article L.713-2 du Code de la propriété intellectuelle."
                 },
                 "responsible_limitation_title": "6 - Limitation de responsabilité",
                 "responsible_limitation": {
-                    "information_exactitude": "Exissia s'efforce de fournir sur ce site des informations aussi précises et actualisées que possible. Toutefois, Exissia ne peut garantir l'exactitude, la complétude ou la pertinence des informations présentées sur ce site, qu'elles soient fournies par Exissia ou par des tiers partenaires. En conséquence, Exissia décline toute responsabilité en cas d'inexactitude, d'erreur ou d'omission dans ces informations ainsi que pour tous dommages directs ou indirects résultant de leur utilisation.",
-                    "web_site_utilisation": "L'utilisateur est seul responsable de l'utilisation qu'il fait des contenus et informations présents sur le site. En aucun cas, Exissia ne pourra être tenue responsable des dommages directs ou indirects résultant de l'utilisation de ce site ou d'autres sites qui lui sont liés. Exissia décline également toute responsabilité pour les interruptions du site, les dysfonctionnements techniques, ou tout dommage résultant de l'intrusion frauduleuse d'un tiers ayant entraîné une modification des informations mises à disposition sur le site."
+                    "information_exactitude": "Zedino s'efforce de fournir sur ce site des informations aussi précises et actualisées que possible. Toutefois, Zedino ne peut garantir l'exactitude, la complétude ou la pertinence des informations présentées sur ce site, qu'elles soient fournies par Zedino ou par des tiers partenaires. En conséquence, Zedino décline toute responsabilité en cas d'inexactitude, d'erreur ou d'omission dans ces informations ainsi que pour tous dommages directs ou indirects résultant de leur utilisation.",
+                    "web_site_utilisation": "L'utilisateur est seul responsable de l'utilisation qu'il fait des contenus et informations présents sur le site. En aucun cas, Zedino ne pourra être tenue responsable des dommages directs ou indirects résultant de l'utilisation de ce site ou d'autres sites qui lui sont liés. Zedino décline également toute responsabilité pour les interruptions du site, les dysfonctionnements techniques, ou tout dommage résultant de l'intrusion frauduleuse d'un tiers ayant entraîné une modification des informations mises à disposition sur le site."
                 },
                 "applicable_right_title": "7 - Droit applicable",
                 "applicable_right": {
                     "info": "Le présent site et ses mentions légales sont régis par le droit français. Tout litige relatif à l'utilisation de ce site sera soumis à la compétence exclusive des tribunaux français. En cas de litige, la langue de référence est le français."
                 },
                 "credits_title": "8 - Crédits",
-                "credits": "Les mentions légales ont été générées par Exissia. Les images et illustrations sont fournies par Exissia."
+                "credits": "Les mentions légales ont été générées par Zedino. Les images et illustrations sont fournies par Zedino."
             }
         },
         "condition_generales_utilisation": {
@@ -540,17 +536,17 @@
             "content": {
                 "introduction": "Voici les conditions générales d'utilisation de notre site.",
                 "section_1_title": "Objet",
-                "section_1": "Les présentes conditions générales d'utilisation déterminent les règles d'accès et les modalités d'utilisation du site Exissia.",
+                "section_1": "Les présentes conditions générales d'utilisation déterminent les règles d'accès et les modalités d'utilisation du site Zedino.",
                 "section_2_title": "Acceptation des Conditions",
                 "section_2": "L'utilisation du site implique l'acceptation pleine et entière des présentes conditions générales d'utilisation.",
                 "section_3_title": "Services Proposés",
-                "section_3": "Exissia fournit des services de conseils en systèmes et logiciels informatiques, de développement de sites web et de logiciels.",
+                "section_3": "Zedino fournit des services de conseils en systèmes et logiciels informatiques, de développement de sites web et de logiciels.",
                 "section_4_title": "Responsabilité",
-                "section_4": "Exissia ne saurait être tenu responsable des dommages directs et indirects causés au matériel de l'utilisateur, lors de l'accès au site Exissia.",
+                "section_4": "Zedino ne saurait être tenu responsable des dommages directs et indirects causés au matériel de l'utilisateur, lors de l'accès au site Zedino.",
                 "section_5_title": "Données Personnelles",
-                "section_5": "Exissia s'engage à respecter la confidentialité des données personnelles communiquées par les utilisateurs du site.",
+                "section_5": "Zedino s'engage à respecter la confidentialité des données personnelles communiquées par les utilisateurs du site.",
                 "section_6_title": "Modifications des Conditions",
-                "section_6": "Exissia se réserve le droit de modifier à tout moment les présentes conditions générales d'utilisation."
+                "section_6": "Zedino se réserve le droit de modifier à tout moment les présentes conditions générales d'utilisation."
             }
         },
         "politique_cookies": {

@@ -1,17 +1,18 @@
 {
     "site": {
-        "title": "Exissia",
+        "title": "Zedino",
         "favicon": "favicon.png",
         "logo": "logo.png",
         "logo_footer": "logo_footer.png",
-        "description": "",
         "header-page": "header-page.jpg",
-        "header-page-alt": "Company picture",
-        "text_color" : "#2B2B2B",
-        "title_color" : "#34303B",
-        "primary_color": "#fff",
-        "secondary_color": "#e5f1fa",
-        "ternary_color": "#003260",
+        "header-page-alt": "Company image",
+        "description": "We transform your business into a website, Mobile App, and Web App! ZEDINO, the Technical Web Agency, your partner in the virtual world.",
+        "text_color": "#fff",
+        "text_color_dark": "#666",
+        "title_color": "#34303B",
+        "primary_color": "#1d213a",
+        "secondary_color": "#18191b",
+        "ternary_color": "#FD5D38",
         "bg_body_color": "#fff",
         "error_color": "#E74C3C",
         "success_color": "#2ECC71",
@@ -19,8 +20,8 @@
         "info_color": "#3498DB",
         "font_family": "Roboto:wght@400;700"
     },
-    "languages_title" : "Languages",
-    "languages_title_aria": "Change the language",
+    "languages_title": "Languages",
+    "languages_title_aria": "Change language",
     "languages": [
         {
             "code": "fr",
@@ -43,7 +44,7 @@
             "flag": "ar.png"
         }
     ],
-    "navigation_title" : "Navigation",
+    "navigation_title": "Navigation",
     "navigation": [
         {
             "label": "Home",
@@ -75,7 +76,7 @@
         },
         {
             "label": "Blog",
-            "href": "https://www.blog.exissia.com"
+            "href": "https://www.blog.zedino.com"
         },
         {
             "label": "Contact",
@@ -83,12 +84,85 @@
             "class": "ml-5 contact"
         }
     ],
-    "button-services": "Our Services",
-    "button-contact": "Contact Us",
+    "button-services": "Our services",
+    "button-contact": "Contact us",
     "button-services-aria-label": "Link to our services",
-    "button-contact-aria-label": "Link to our contact details",
-    "technologies_title" : "Technologies We Use",
-    "technologies_description" : "We use modern and proven technologies to ensure quality solutions.",
+    "button-contact-aria-label": "Link to our contact information",
+    "caroussel": [
+        {
+            "title": "Your business online",
+            "text": "Zedino is a Web Agency specializing in website and mobile application creation",
+            "button_1": "Learn more",
+            "button_2": "Get an instant quote",
+            "button_1_href": "#presentation",
+            "button_2_href": "#devis"
+        },
+        {
+            "title": "More than a website, your business",
+            "text": "Secure e-commerce sites (https) </br> Secure online booking sites (https) </br> Mobile applications </br> Maintenance ...",
+            "button_1": "Learn more",
+            "button_2": "Get an instant quote",
+            "button_1_href": "#presentation",
+            "button_2_href": "#devis"
+        }
+    ],
+    "presentation_title": "Digital & Technical Agency",
+    "presentation_img": "about.png",
+    "presentation_alt": "Agency presentation",
+    "presentation": [
+        {
+            "key_number": "<h3><span>10</span></h3><h4>years<br>of experience</h4>",
+            "text": "<b>Web Agency</b>, our team masters digital communication strategies and supports you in creating your websites and mobile applications. <b>Technical development experts</b>, we offer you customized turnkey solutions."
+        },
+        {
+            "key_number": "<h3><span>52</span></h3><h4>satisfied<br>clients</h4>",
+            "text": "Needs analysis and advice, <em>UX</em>, design, development, as well as, <em>SEO, inbound marketing</em>; we cover all the needs related to your digital project, then, we ensure its hosting, monitoring, and maintenance throughout its use."
+        }
+    ],
+    "services_details": [
+        {
+            "icon": "fas fa-laptop-code",
+            "title": "Development",
+            "text": "We tackle all technical challenges. Consult us!"
+        },
+        {
+            "icon": "fas fa-globe",
+            "title": "Showcase Website",
+            "text": "Imagine, create, and promote your website."
+        },
+        {
+            "icon": "fas fa-shopping-cart",
+            "title": "E-commerce",
+            "text": "Turnkey shop to manage and sell your products."
+        },
+        {
+            "icon": "fas fa-mobile-alt",
+            "title": "Mobile App",
+            "text": "Your presence on Play Store and App Store."
+        },
+        {
+            "icon": "fas fa-desktop",
+            "title": "Responsive Web Design",
+            "text": "Responsive Web Design, compatible with all devices."
+        },
+        {
+            "icon": "fas fa-headset",
+            "title": "Maintenance",
+            "text": "Hosting, monitoring, and maintenance with a 6-hour response time."
+        },
+        {
+            "icon": "fas fa-envelope",
+            "title": "Email",
+            "text": "Creation and management of @yourcompany.com mailboxes."
+        },
+        {
+            "icon": "fas fa-newspaper",
+            "title": "Newsletter",
+            "text": "Creation and tracking of your newsletter campaigns."
+        }
+    ],
+    "technologies_title": "Technologies we use",
+    "technologies_description": "We use modern and proven technologies to ensure quality solutions.",
     "technologies": [
         {
             "label": "Angular",
@@ -139,33 +213,57 @@
             "src": "techno-12.png"
         }
     ],
-    "google_reviews_title" : "What Our Clients Say on Google Reviews",
-    "total_reviews": 4, 
+    "projects_title": "Our completed projects",
+    "projects": [
+        {
+            "id": "project1",
+            "title": "Project 1: Web application",
+            "description": "Development of a web application for the company Qualicolis",
+            "image": "project1.jpg",
+            "link": "https://www.tiktok.com/@sidoustandup/playlist/Qualicolis%20%F0%9F%9A%9B%F0%9F%93%A6-7389968823123757856"
+        },
+        {
+            "id": "project2",
+            "title": "Project 2: LMS",
+            "description": "Development of an LMS for the Itecom art school",
+            "image": "project2.jpg",
+            "link": "https://www.itecom-artdesign.com/"
+        },
+        {
+            "id": "project3",
+            "title": "Project 3: Training management platform",
+            "description": "Development of a management platform for a training center",
+            "image": "project3.jpg",
+            "link": "https://example.com/project3"
+        }
+    ],
+    "google_reviews_title": "What our clients say on Google Reviews",
+    "total_reviews": 4,
     "average_rating": 4.5,
     "reviews": [
         {
             "author_name": "Samih Habbani",
             "relative_time_description": "6 months ago",
             "rating": 5,
-            "text": "Professional, responsive, and attentive team. I highly recommend Exissia's services."
+            "text": "Professional, responsive, and attentive team. I recommend Zedino's services."
         },
         {
             "author_name": "Thérèse Léandre",
             "relative_time_description": "3 months ago",
             "rating": 5,
-            "text": "Very satisfied with our collaboration with Exissia in Paris for the development of our web application. Quality work, responsive and professional team. I highly recommend their services!"
+            "text": "Very satisfied with our collaboration with Zedino in Paris for the development of our web application. High-quality work, responsive and professional team. I highly recommend their services!"
         },
         {
             "author_name": "Shaade H",
             "relative_time_description": "3 weeks ago",
             "rating": 5,
-            "text": "Excellent experience with Exissia in Paris for the development of our mobile application. Fast, professional, and quality service. Very satisfied with the final result. I highly recommend!"
+            "text": "Excellent experience with Zedino in Paris for the development of our mobile application. Fast, professional, and quality service. Very satisfied with the final result. I highly recommend it!"
         },
         {
             "author_name": "Emily White",
             "relative_time_description": "2 days ago",
             "rating": 5,
-            "text": "Very satisfied with the work done. I recommend."
+            "text": "Very satisfied with the work done. I recommend Zedino's services."
         },
         {
             "author_name": "Michel Verd",
@@ -174,8 +272,8 @@
             "text": "Fast service, but could be improved in some aspects."
         }
     ],
-    "partners_title" : "Our Partners",
-    "partners_description" : "We collaborate with leading partners to offer the best solutions to our clients. Our partner network allows us to stay at the forefront of technology and provide innovative services tailored to everyone's needs.",
+    "partners_title": "Our partners",
+    "partners_description": "We collaborate with top-tier partners to offer the best solutions to our clients. Our partner network allows us to stay at the forefront of technology and offer innovative services tailored to the needs of each client.",
     "partners": [
         {
             "name": "Zedino",
@@ -183,41 +281,26 @@
             "href": "https://www.zedino.com"
         }
     ],
-    "clients_title" : "Our Clients",
-    "clients_description" : "We are proud to work with prestigious clients and to offer them services that meet their high expectations. Our goal is to build strong and lasting relationships with each of our clients.",
+    "clients_title": "Our clients",
+    "clients_description": "We are proud to work with prestigious clients and provide services that meet their high expectations. Our goal is to build strong and lasting relationships with each of our clients.",
     "clients": [
         {
-            "name": "JcDecaux",
+            "name": "QualisColis",
             "logo": "client-1.png",
-            "href": "https://www.jcdecaux.fr/"
-
+            "href": "https://www.tiktok.com/@sidoustandup/playlist/Qualicolis%20%F0%9F%9A%9B%F0%9F%93%A6-7389968823123757856"
         },
         {
-            "name": "Engie",
+            "name": "Itecom",
             "logo": "client-2.png",
-            "href": "https://particuliers.engie.fr/"
-
+            "href": "https://www.itecom-artdesign.com/"
         },
         {
-            "name": "Groupe M6",
+            "name": "Formation WS",
             "logo": "client-3.png",
-            "href": "https://www.groupem6.fr/"
-
-        },
-        {
-            "name": "L'oréal",
-            "logo": "client-4.png",
-            "href": "https://www.loreal-paris.fr/"
-
-        },
-        {
-            "name": "Société Générale",
-            "logo": "client-5.png",
-            "href": "https://particuliers.sg.fr/"
-
+            "href": "https://formationws.fr/"
         }
     ],
-    "values_title" : "Our Values",
+    "values_title": "Our values",
     "values": [
         {
             "icon": "fas fa-handshake",
@@ -245,34 +328,34 @@
             "slogan": "IT Solutions && </br> AgileSquads",
             "company_image": "https://source.unsplash.com/500x500/?office,computer",
             "services": {
-                "title": "Value for Our Clients",
-                "description": "Exissia is a proven player in business application and software development. We are experts in team extension, AgileSquads, and IT consulting services."
-              },
+                "title": "Value for our clients",
+                "description": "Zedino is a proven player in application and business software development. We are experts in team extension among your collaborators, AgileSquads, and IT consulting services."
+            },
             "service_cards": [
                 {
                     "image": "services-1.jpg",
-                    "title": "Team Reinforcements",
-                    "description": "<b>- Team Extensions </b> : Our talented technical team becomes an extension of your team, saving you time and resources on recruitment and onboarding. </br><b>- Long-term Development</b> : Our team is as invested in the success of your project as your own team."
+                    "title": "Team Reinforcement",
+                    "description": "<b>- Team extensions </b>: Our talented technical team becomes an extension of your team, saving you time and resources on recruitment and integration. </br><b>- Long-term development</b>: our team invests as much in the success of your project as your own team."
                 },
                 {
                     "image": "services-2.jpg",
                     "title": "AgileSquads",
-                    "description": "<b>- Smart Delegation </b> : No need to assign internal staff to create a project from scratch. </br><b>- Faster Results</b> : With the AgileSquads approach, short interactions ensure that each phase of your project is implemented on time. </br><b>- Transparency and Control </b> : It’s easy to convey requirements to a ready-to-go AgileSquad and periodically check progress."
+                    "description": "<b>- Smart delegation </b>: no need to assign internal staff to create a project from scratch. </br><b>- Faster results</b>: with the AgileSquads approach, short interactions ensure that each stage of your project is implemented on time. </br><b>- Transparency and control </b>: it is easy to convey requirements to a ready-to-go AgileSquad and periodically check the progress."
                 },
                 {
                     "image": "services-3.jpg",
                     "title": "IT Consulting",
-                    "description": "<b>- Strategy Development </b> : Get the help you need to translate your business goals into technology plans before building your team.</br> <b>- Situation Assessment </b> : Get a second opinion on the challenges you face and recommendations for moving forward. </br><b>- Prepare to Partner</b> : We can help you define a project in a way that allows you to work with a technology partner on your software development needs."
+                    "description": "<b>- Strategy development </b>: Get the help you need to translate your business goals into technology plans before forming your team. </br><b>- Situation assessment </b>: Get a second opinion on the challenges you face and recommendations to move forward. </br><b>- Prepare to partner </b>: We can help you define a project in a way that allows you to work with a technology partner on your software development needs."
                 }
             ],
             "profiles": {
-                "title": "Our Profiles",
-                "description": "We offer you a full squad of expert profiles fully aligned with your needs and completely Product-oriented.",
+                "title": "Our profiles",
+                "description": "We offer you a whole squad of expert profiles in perfect alignment with your needs and fully product-oriented.",
                 "members": [
                     {
                         "name": "Scrum Master",
                         "photo": "members-1",
-                        "description": "The team Maestro!💡"
+                        "description": "The Maestro of the team!💡"
                     },
                     {
                         "name": "Devops",
@@ -280,19 +363,19 @@
                         "description": "Reliability, performance, and scaling!🖥️"
                     },
                     {
-                        "name": "Agile Coach",
+                        "name": "Coach Agile",
                         "photo": "members-3",
                         "description": "Safe, Scrum, Kanban..? 🚀"
                     },
                     {
                         "name": "Product Owner",
                         "photo": "members-4",
-                        "description": "The indispensable business liaison!💡"
+                        "description": "The essential business link!💡"
                     },
                     {
                         "name": "BackEnd Developer",
                         "photo": "members-5",
-                        "description": "There’s definitely an API for that!🖥️"
+                        "description": "There's definitely an API for that!🖥️"
                     },
                     {
                         "name": "UX / UI",
@@ -302,7 +385,7 @@
                     {
                         "name": "Business Analyst",
                         "photo": "members-7",
-                        "description": "\"Challenge\" is the key word!💡"
+                        "description": "\"Challenge\" is the keyword!💡"
                     },
                     {
                         "name": "FrontEnd Developer",
@@ -312,50 +395,50 @@
                     {
                         "name": "Software Quality Analyst",
                         "photo": "members-9",
-                        "description": "I’ve got your back!"
+                        "description": "I've got your back!"
                     }
                 ]
             },
             "approach": {
                 "title": "Our Approach",
-                "description": "We cover all aspects of the software engineering process, starting with your strategy. So while we design, develop, and support your software products, you can focus on your core business.",
-                "content": "Our approach is client-centric, with tailored solutions.",
+                "description": "We cover all aspects of the software engineering process, starting with your strategy. So, while we design, develop, and support your software products, you can focus on your core business.",
+                "content": "Our approach is client-centered, with tailored solutions.",
                 "points": [
                     {
                         "icon": "fas fa-cogs",
-                        "title": "Tailored Solutions",
-                        "description": "We create solutions tailored to your specific needs."
+                        "title": "Analysis and conceptualization",
+                        "description": "Analysis, design, and mockup creation for custom solutions."
                     },
                     {
                         "icon": "fas fa-users",
-                        "title": "Dedicated Team",
-                        "description": "A team of experts at your service and available for any inquiries."
+                        "title": "Design and development",
+                        "description": "Appropriate technologies and development with real-time monitoring."
                     },
                     {
                         "icon": "fas fa-chart-line",
                         "title": "Efficiency and Performance",
-                        "description": "Optimizing your systems for better performance."
+                        "description": "Optimization of your systems for better performance."
                     },
                     {
                         "icon": "fas fa-shield-alt",
-                        "title": "Security",
-                        "description": "Prioritizing the security of your data at all times."
+                        "title": "Promotion and maintenance",
+                        "description": "SEO/SEA optimization, social media training, hosting, and guaranteed maintenance."
                     }
                 ]
             },
             "contact": {
                 "header_title": "Contact us",
                 "title": "Contact",
-                "description": "You can reach us at any time. We will help you find the right human and technical solution for your project.",
-                "address": "6 RUE D'ARMAILLE </br> 75017 PARIS",
-                "email": "contact@exissia.com",
+                "description": "You can reach us at any time, we will help you find the right human and technical solution for your project.",
+                "address": "47 BD LALLA YACOUT </br> 20000 CASABLANCA",
+                "email": "zedino email",
                 "phone": "+33 (0)6 79 51 95 95"
             },
             "map": {
                 "latitude": 48.878660,
                 "longitude": 2.293710
             },
-            "legal_title" : "Legal Section",
+            "legal_title": "Legal Section",
             "legal_links": [
                 {
                     "label": "Terms of Use",
@@ -369,8 +452,8 @@
                     "label": "Legal Notice",
                     "page": "mention_legales"
                 }
-            ],                 
-            "social_links_title": "Follow Us",
+            ],
+            "social_links_title": "Follow us",
             "social_links": [
                 {
                     "platform": "twitter",
@@ -379,7 +462,7 @@
                 },
                 {
                     "platform": "linkedin",
-                    "url": "https://www.linkedin.com/company/exissia/",
+                    "url": "https://www.linkedin.com/company/Zedino/",
                     "icon": "fab fa-linkedin"
                 },
                 {
@@ -389,81 +472,81 @@
                 },
                 {
                     "platform": "blog",
-                    "url": "https://www.blog.exissia.com",
+                    "url": "https://www.blog.Zedino.com",
                     "icon": "fas fa-blog"
                 }
             ]
         },
         "mention_legales": {
-            "title": "Our Legal Notices",
+            "title": "Our Legal Notice",
             "content": {
-                "introduction": "In accordance with the provisions of Articles 6-III and 19 of Law No. 2004-575 of June 21, 2004, for Confidence in the Digital Economy, known as L.C.E.N., the following legal notices are brought to the attention of users and visitors of the Exissia site.",
-                "editor_title": "1 - Site Publisher",
+                "introduction": "In accordance with the provisions of Articles 6-III and 19 of Law No. 2004-575 of June 21, 2004, on Confidence in the Digital Economy, known as L.C.E.N., users and visitors of the Zedino website are informed of the present legal notice.",
+                "editor_title": "1 - Site editor",
                 "editor": {
-                    "name": "Exissia",
-                    "address": "6 RUE D'ARMAILLE 75017 PARIS",
+                    "name": "Zedino",
+                    "address": "47 BD LALLA YACOUT 20000 CASABLANCA MOROCCO",
                     "phone": "+33 (0)6 79 51 95 95",
-                    "email": "contact@exissia.com",
+                    "email": "zedino email",
                     "legal_form": "SAS, simplified joint-stock company",
                     "num_tva": "FR05917800450",
                     "dir_publication": "ZIAD JAAGOUB"
                 },
-                "publication_manager_title": "2 - Publication Manager",
+                "publication_manager_title": "2 - Publication manager",
                 "publication_manager": {
                     "name": "Ziad Jaagoub",
-                    "email": "contact@exissia.com"
+                    "email": "zedino email"
                 },
-                "host_title": "3 - Site Host",
+                "host_title": "3 - Site host",
                 "host": {
-                    "name": "Host Example",
-                    "address": "456 Rue Hébergeur, 75002 Paris, France",
-                    "phone": "+33 1 98 76 54 32",
+                    "name": "OVH CLOUD",
+                    "address": "2, rue Kellermann, 59100 Roubaix",
+                    "phone": "+33 9 72 10 10 07",
                     "email": "hebergeur@exemple.com"
                 },
-                "personal_data_title": "4 - Personal Data",
+                "personal_data_title": "4 - Personal data",
                 "personal_data": {
-                    "data_treament": "Host Example",
-                    "access_right": "456 Rue Hébergeur, 75002 Paris, France",
-                    "dpo": "+33 1 98 76 54 32"
+                    "data_treament": "OVH CLOUD",
+                    "access_right": "2, rue Kellermann, 59100 Roubaix",
+                    "dpo": "+33 9 72 10 10 07"
                 },
                 "cookies_title": "Cookies",
                 "cookies": {
-                    "data_treament": "Host Example"
+                    "data_treament": "OVH CLOUD"
                 },
-                "intellectual_property_title": "5 - Intellectual Property",
+                "intellectual_property_title": "5 - Intellectual property",
                 "intellectual_property": {
-                    "author_right": "All content on this site, including, but not limited to, text, images, graphics, logos, icons, sounds, software, and their layout, are the exclusive property of Exissia or their respective authors. These elements are protected by French and international intellectual property laws. Any reproduction, distribution, modification, adaptation, retransmission, or publication of these elements is strictly prohibited without prior written permission from Exissia. Unauthorized use may result in legal action.",
-                    "brands": "The trademarks and logos displayed on this site are registered by Exissia or possibly by its partners. Any total or partial reproduction of these trademarks or logos, made from the elements of the site without the express permission of Exissia or their owners, is therefore prohibited under Article L.713-2 of the Intellectual Property Code."
+                    "author_right": "All content on this site, including, but not limited to, texts, images, graphics, logos, icons, sounds, software, and their layout, is the exclusive property of Zedino or their respective authors. These elements are protected by French and international laws relating to intellectual property. Any reproduction, distribution, modification, adaptation, retransmission, or publication of these elements is strictly prohibited without the prior written consent of Zedino. Their use without prior authorization exposes the offender to legal action.",
+                    "brands": "The trademarks and logos displayed on this site are registered by Zedino or possibly by its partners. Any total or partial reproduction of these trademarks or logos, carried out using elements of the site without the express authorization of Zedino or their owners, is therefore prohibited under Article L.713-2 of the Intellectual Property Code."
                 },
-                "responsible_limitation_title": "6 - Limitation of Liability",
+                "responsible_limitation_title": "6 - Limitation of liability",
                 "responsible_limitation": {
-                    "information_exactitude": "Exissia strives to provide as accurate and up-to-date information as possible on this site. However, Exissia cannot guarantee the accuracy, completeness, or relevance of the information presented on this site, whether provided by Exissia or by third-party partners. Consequently, Exissia declines all responsibility in the event of inaccuracies, errors, or omissions in this information, as well as for any direct or indirect damages resulting from its use.",
-                    "web_site_utilisation": "The user is solely responsible for their use of the content and information on the site. Under no circumstances shall Exissia be held liable for any direct or indirect damages resulting from the use of this site or other linked sites. Exissia also disclaims responsibility for site interruptions, technical malfunctions, or any damage resulting from unauthorized third-party access leading to alterations of the information provided on the site."
+                    "information_exactitude": "Zedino strives to provide information as accurate and up-to-date as possible on this site. However, Zedino cannot guarantee the accuracy, completeness, or relevance of the information presented on this site, whether provided by Zedino or by third-party partners. Consequently, Zedino disclaims all liability for any inaccuracies, errors, or omissions in this information as well as for any direct or indirect damage resulting from its use.",
+                    "web_site_utilisation": "The user is solely responsible for the use of the content and information on the site. Under no circumstances can Zedino be held responsible for direct or indirect damages resulting from the use of this site or other sites linked to it. Zedino also disclaims all liability for interruptions of the site, technical malfunctions, or any damage resulting from the fraudulent intrusion of a third party having caused a modification of the information made available on the site."
                 },
-                "applicable_right_title": "7 - Applicable Law",
+                "applicable_right_title": "7 - Applicable law",
                 "applicable_right": {
-                    "info": "This site and its legal notices are governed by French law. Any dispute relating to the use of this site will be subject to the exclusive jurisdiction of the French courts. In case of dispute, the reference language is French."
+                    "info": "This site and its legal notice are governed by French law. Any dispute related to the use of this site will be subject to the exclusive jurisdiction of the French courts. In the event of a dispute, the reference language is French."
                 },
                 "credits_title": "8 - Credits",
-                "credits": "The legal notices were generated by Exissia. Images and illustrations are provided by Exissia."
+                "credits": "The legal notice was generated by Zedino. Images and illustrations are provided by Zedino."
             }
         },
         "condition_generales_utilisation": {
-            "title": "Our General Terms of Use",
+            "title": "Terms of Use",
             "content": {
                 "introduction": "Here are the general terms of use of our site.",
                 "section_1_title": "Purpose",
-                "section_1": "These general terms of use determine the rules of access and the terms of use of the Exissia site.",
-                "section_2_title": "Acceptance of the Terms",
-                "section_2": "Using the site implies full acceptance of these general terms of use.",
+                "section_1": "These general terms of use determine the access rules and usage conditions of the Zedino site.",
+                "section_2_title": "Acceptance of Terms",
+                "section_2": "Use of the site implies full and unconditional acceptance of these general terms of use.",
                 "section_3_title": "Services Offered",
-                "section_3": "Exissia provides consulting services in IT systems and software, web development, and software development.",
-                "section_4_title": "Liability",
-                "section_4": "Exissia cannot be held responsible for direct and indirect damages caused to the user's equipment when accessing the Exissia site.",
+                "section_3": "Zedino provides consulting services in IT systems and software, website and software development.",
+                "section_4_title": "Responsibility",
+                "section_4": "Zedino cannot be held responsible for any direct or indirect damage caused to the user's equipment during access to the Zedino site.",
                 "section_5_title": "Personal Data",
-                "section_5": "Exissia is committed to respecting the confidentiality of personal data provided by users of the site.",
-                "section_6_title": "Changes to the Terms",
-                "section_6": "Exissia reserves the right to modify these general terms of use at any time."
+                "section_5": "Zedino is committed to respecting the confidentiality of personal data communicated by site users.",
+                "section_6_title": "Modification of Terms",
+                "section_6": "Zedino reserves the right to modify these general terms of use at any time."
             }
         },
         "politique_cookies": {
@@ -473,7 +556,7 @@
                 "section_1_title": "Use of Cookies",
                 "section_1": "Cookies are used to analyze traffic and improve site performance.",
                 "section_2_title": "Disabling Cookies",
-                "section_2": "You can disable cookies by changing your browser settings.",
+                "section_2": "You can disable cookies by modifying your browser settings.",
                 "section_3_title": "Types of Cookies Used",
                 "section_3": "We use analytical cookies, functional cookies, and advertising cookies."
             }

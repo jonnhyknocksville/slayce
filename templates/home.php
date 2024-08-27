@@ -1,5 +1,5 @@
 
-<main class="container-fluid pt-5 px-0">
+<main class="container-fluid px-0">
 
     <?php
         // require_once __DIR__ . '/sections/01-slogan.php';
@@ -20,4 +20,5 @@
 
 <?php
         require_once __DIR__ . '/sections/10-map.php';
+        require_once __DIR__ . '/sections/15-devis.php';
 ?>

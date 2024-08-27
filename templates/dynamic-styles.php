@@ -8,6 +8,278 @@ include(__DIR__ . '/../gestion_lang.php');
 
 
 {# 
+    CONFIGURATION DU STYLE
+#}
+
+{# 
+    
+    GESTION DES SECTIONS
+
+#}
+
+<?php
+
+$white = "#fff";
+$black = "#000";
+
+// 01 - nav
+
+$bgNav = htmlspecialchars($config['site']['primary_color']);
+$textNav = htmlspecialchars($config['site']['text_color']);
+$iconNav = htmlspecialchars($config['site']['ternary_color']);
+
+// 01 - Carousel
+
+$bgCarousel = htmlspecialchars($config['site']['primary_color']);
+$textCarousel = htmlspecialchars($config['site']['text_color']);
+$iconCarousel = htmlspecialchars($config['site']['ternary_color']);
+
+// 02 - Presentation
+
+$bgPresentation = htmlspecialchars($config['site']['bg_body_color']);
+$textPresentation = htmlspecialchars($config['site']['text_color_dark']);
+$iconPresentation = htmlspecialchars($config['site']['ternary_color']);
+
+// 02 - Service
+
+$bgServices = htmlspecialchars($config['site']['secondary_color']);
+$textServices = htmlspecialchars($config['site']['text_color']);
+$iconServices = htmlspecialchars($config['site']['ternary_color']);
+
+// 03 - Projects
+
+$bgProjects = htmlspecialchars($config['site']['primary_color']);
+$textProjects = htmlspecialchars($config['site']['primary_color']);
+$iconProjects = htmlspecialchars($config['site']['primary_color']);
+
+// 04 - Profils
+
+$bgProfils = htmlspecialchars($config['site']['primary_color']);
+$textProfils = htmlspecialchars($config['site']['text_color']);
+$iconProfils = htmlspecialchars($config['site']['ternary_color']);
+
+// 05 - Approach
+
+$bgApproach = $white;
+$textApproach = htmlspecialchars($config['site']['text_color_dark']);
+$iconApproach = htmlspecialchars($config['site']['ternary_color']);
+
+// 06 - Technologies
+
+$bgTechnologies = htmlspecialchars($config['site']['primary_color']);
+$textTechnologies = htmlspecialchars($config['site']['text_color']);
+$iconTechnologies = htmlspecialchars($config['site']['ternary_color']);
+
+// 07 - Reviews
+
+$bgReviews = $white;
+$textReviews = htmlspecialchars($config['site']['text_color_dark']);
+$iconReviews = htmlspecialchars($config['site']['ternary_color']);
+
+// 08 - Partners
+
+$bgPartners = htmlspecialchars($config['site']['primary_color']);
+$textPartners = htmlspecialchars($config['site']['text_color']);
+$iconPartners = htmlspecialchars($config['site']['ternary_color']);
+
+// 09 - Values
+
+$bgValues = $white;
+$textValues = htmlspecialchars($config['site']['text_color_dark']);
+$iconValues = htmlspecialchars($config['site']['ternary_color']);
+
+// 10 - Clients
+
+$bgClients = htmlspecialchars($config['site']['primary_color']);
+$textClients = htmlspecialchars($config['site']['text_color']);
+$iconClients = htmlspecialchars($config['site']['ternary_color']);
+
+// 10 - Clients
+
+$bgContact = $white;
+$textContact = htmlspecialchars($config['site']['text_color_dark']);
+$iconContact = htmlspecialchars($config['site']['ternary_color']);
+
+// 11 - Footer
+
+$bgFooter = htmlspecialchars($config['site']['primary_color']);
+$textFooter = htmlspecialchars($config['site']['text_color']);
+$iconFooter = htmlspecialchars($config['site']['ternary_color']);
+
+
+?>
+
+
+.btn-primary {
+    background-color: <?php echo htmlspecialchars($config['site']['ternary_color']) ?> !important;
+    border:1px solid rgba(255,255,255,0.2);
+}
+
+.btn-secondary {
+    background-color: <?php echo htmlspecialchars($config['site']['secondary_color']) ?> !important;
+    border:1px solid rgba(255,255,255,0.2);
+}
+
+nav {
+    background-color: <?php echo $bgCarousel ?>;
+    color: <?php echo $textCarousel ?>;
+}
+
+nav a {
+    color: <?= $textNav; ?> !important;
+}
+
+nav i {
+    color: <?= $iconNav; ?> !important;
+}
+
+
+
+{# Accueil #}
+
+#<?= str_replace('#', '', $config['navigation'][0]['href']); ?> {
+    background-color: <?php echo $bgCarousel ?>;
+    color: <?php echo $textCarousel ?>;
+}
+
+#<?= str_replace('#', '', $config['navigation'][0]['href']); ?> i {
+    color: <?php echo $iconCarousel ?>;
+}
+
+#<?= str_replace('#', '', $config['navigation'][0]['href']); ?> i {
+    color: <?php echo $textCarousel ?>;
+}
+
+{# Presentation #}
+
+#presentation {
+    background-color: <?php echo $bgPresentation ?>;
+    color: <?php echo $textPresentation ?>;
+}
+
+#presentation .bg-icon {
+    background-color: <?php echo $iconPresentation ?>;
+    color:<?php echo $white ?>;
+}
+
+{# Services #}
+#<?= str_replace('#', '', $config['navigation'][1]['href']); ?> {
+    background-color: <?php echo $bgServices ?>;
+    color: <?php echo $textServices ?>;
+}
+
+#<?= str_replace('#', '', $config['navigation'][1]['href']); ?> i {
+    color: <?php echo $iconPresentation ?>;
+}
+
+{# Profils #}
+#<?= str_replace('#', '', $config['navigation'][2]['href']); ?> {
+    background-color: <?php echo $bgProfils ?>;
+    color: <?php echo $textProfils ?>;
+}
+
+#<?= str_replace('#', '', $config['navigation'][2]['href']); ?> i {
+    color: <?php echo $iconProfils ?>;
+}
+
+{# Approach #}
+#<?= str_replace('#', '', $config['navigation'][3]['href']); ?> {
+    background-color: <?php echo $bgApproach ?>;
+    color: <?php echo $textApproach ?>;
+}
+
+#<?= str_replace('#', '', $config['navigation'][3]['href']); ?> i {
+    color: <?php echo $iconApproach ?>;
+}
+
+{# Technologies #}
+#<?= str_replace('#', '', $config['navigation'][4]['href']); ?> {
+    background-color: <?php echo $bgTechnologies ?>;
+    color: <?php echo $textTechnologies ?>;
+}
+
+#<?= str_replace('#', '', $config['navigation'][4]['href']); ?> i {
+    color: <?php echo $iconTechnologies ?>;
+}
+
+{# Avis #}
+#<?= str_replace('#', '', $config['navigation'][5]['href']); ?> {
+    background-color: <?php echo $bgReviews ?>;
+    color: <?php echo $textReviews ?>;
+}
+
+#<?= str_replace('#', '', $config['navigation'][5]['href']); ?> i {
+    color: <?php echo $iconApproach ?>;
+}
+
+{# Partners #}
+#<?= str_replace('#', '', $config['navigation'][6]['href']); ?> {
+    background-color: <?php echo $bgPartners ?>;
+    color: <?php echo $textPartners ?>;
+}
+
+#<?= str_replace('#', '', $config['navigation'][6]['href']); ?> i {
+    color: <?php echo $iconPartners ?>;
+}
+
+{# Values #}
+#values {
+    background-color: <?php echo $bgValues ?>;
+    color: <?php echo $textValues ?>;
+}
+
+#values i {
+    color: <?php echo $iconValues ?>;
+}
+
+{# Clients #}
+
+#clients {
+    background-color: <?php echo $bgClients?>;
+    color: <?php echo $textClients?>;
+}
+
+#clients i {
+    color: <?php echo $iconClients?>;
+}
+
+{# Contact #}
+#<?= str_replace('#', '', $config['navigation'][8]['href']); ?> {
+    background-color: <?php echo $bgContact ?>;
+    color: <?php echo $textContact ?>;
+}
+
+#<?= str_replace('#', '', $config['navigation'][8]['href']); ?> i {
+    color: <?php echo $white ?>;
+}
+
+#<?= str_replace('#', '', $config['navigation'][8]['href']); ?> .bg-icon {
+    background-color: <?php echo $bgNav ?>;
+}
+
+{# Projects #}
+
+#projects {
+    color: black;
+}
+
+#projects a{
+    color: black;
+    font-weight:bold;
+}
+
+{# Footer #}
+footer {
+    background-color: <?php echo $bgFooter ?>;
+    color: <?php echo $textFooter ?>;
+}
+
+footer i {
+    color: <?php echo $iconFooter ?>;
+}
+
+
+{# 
 
     RESET CSS
     
@@ -39,22 +311,17 @@ footer ul {
     margin:0;
 }
 
-
 <?php endif; ?>
 
 p {
     font-size:1.5rem;
-    color: <?php echo htmlspecialchars($config['site']['text_color']); ?>;
-
 }
 
 h1 {
     font-size:70px;
-    font-weight:bold;
 }
 
 h1, h2, h3, h4, h5, h6 {
-    color: <?php echo htmlspecialchars($config['site']['title_color']); ?>;
     font-weight:bold;
 }
 
@@ -62,7 +329,6 @@ h1, h2, h3, h4, h5, h6 {
 i {
     font-size: 3rem;
     margin-bottom: 1rem;
-    color: <?php echo htmlspecialchars($config['site']['ternary_color']); ?>;
     transition: transform 0.3s ease-in-out;
 }
 
@@ -73,16 +339,9 @@ i {
     
 #}
 
-nav {
-    background-color: <?php echo htmlspecialchars($config['site']['bg_body_color']); ?>;
-}
 
 .fixed-top {
     z-index:999999;
-}
-
-.navbar-dark .navbar-nav .nav-link {
-    color: <?php echo htmlspecialchars($config['site']['text_color']); ?> !important;
 }
 
 .navbar-dark .navbar-nav .nav-link.active {
@@ -90,18 +349,16 @@ nav {
 }
 
 .navbar-dark .navbar-nav .nav-link.contact {
-    border: 1px solid <?php echo htmlspecialchars($config['site']['text_color']); ?>;
+    border: 1px solid <?php echo $white ?>;
     border-radius: 5px;
-    background: <?php echo htmlspecialchars($config['site']['bg_body_color']); ?>;
+    background: transparent;
     color: black;
     font-weight:bold;
 }
 
 
 {# 
-
     Services Section
-    
 #}
 
 
@@ -156,7 +413,7 @@ nav {
 
 .contact-card {
     background-color: white;
-    border: 10px solid <?php echo htmlspecialchars($config['site']['ternary_color']); ?>;
+    border: 10px solid <?php echo $bgFooter; ?>;
     border-radius: 1rem;
     overflow: hidden;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
@@ -166,16 +423,6 @@ nav {
 
 .contact-card .card-body {
     padding: 20px; /* Ajustez le padding selon vos besoins */
-}
-
-.bg-icon {
-    background: <?php echo htmlspecialchars($config['site']['ternary_color']); ?>;
-}
-
-.bg-icon i {
-
-    color: <?php echo htmlspecialchars($config['site']['primary_color']); ?>;
-
 }
 
 
@@ -246,16 +493,8 @@ nav {
 
 #}
 
-footer {
-    background: <?php echo htmlspecialchars($config['site']['ternary_color']); ?>;
-}
-
-footer h4 {
-    color: <?php echo htmlspecialchars($config['site']['secondary_color']); ?>;
-}
-
 footer .bottom-bar {
-    background: <?php echo htmlspecialchars($config['site']['ternary_color']); ?>;
+    background: <?php echo $bgFooter ?>;
 }
 
 .wave-container {
@@ -273,13 +512,12 @@ footer .bottom-bar {
 }
 
 footer i {
-    color: <?php echo htmlspecialchars($config['site']['secondary_color']); ?>;
     font-size:1rem;
 }
 
 footer a {
     text-decoration:none;
-    color: <?php echo htmlspecialchars($config['site']['primary_color']) ?>;
+    color: <?php echo $textFooter; ?>;
 }
 
 
@@ -300,48 +538,6 @@ footer a {
     border:1px solid <?php echo htmlspecialchars($config['site']['text_color']); ?>;
     color: <?php echo htmlspecialchars($config['site']['text_color']); ?> !important;
 
-}
-
-
-{# 
-    
-    GESTION DES SECTIONS
-
-#}
-
-.section-1 {
-    background-color: <?php echo htmlspecialchars($config['site']['primary_color']); ?>;
-    color: <?php echo htmlspecialchars($config['site']['bg_body_color']); ?>;
-}
-
-.section-2 {
-    background-color: <?php echo htmlspecialchars($config['site']['secondary_color']); ?>;
-    color: <?php echo htmlspecialchars($config['site']['bg_body_color']); ?>;
-}
-
-
-.section-3 {
-    background-color: <?php echo htmlspecialchars($config['site']['primary_color']); ?>;
-    color: <?php echo htmlspecialchars($config['site']['bg_body_color']); ?>;
-}
-
-.section-4 {
-    background-color: <?php echo htmlspecialchars($config['site']['secondary_color']); ?>;
-    color: <?php echo htmlspecialchars($config['site']['bg_body_color']); ?>;
-}
-
-.section-5 {
-    background-color: <?php echo htmlspecialchars($config['site']['primary_color']); ?>;
-    color: <?php echo htmlspecialchars($config['site']['bg_body_color']); ?>;
-}
-
-.section-6 {
-    background-color: <?php echo htmlspecialchars($config['site']['secondary_color']); ?>;
-    color: <?php echo htmlspecialchars($config['site']['bg_body_color']); ?>;
-}
-
-.section-8 {
-    background-color: <?php echo htmlspecialchars($config['site']['secondary_color']); ?>;
 }
 
 .rounded-circle {
@@ -404,4 +600,26 @@ footer a {
     align-items: center;
     justify-content: center;
     height: 100%;
+}
+
+.carousel-control-prev, .carousel-control-next {
+    fill: <?php echo $textProfils ?>;
+}
+
+
+{# 
+
+    RESPONSIVE
+
+#}
+
+@media (max-width: 991.98px) {
+    .navbar-dark .navbar-nav .nav-link.contact {
+        border: none;
+        border-radius: 0;
+        background: none;
+        color: inherit;
+        font-weight: normal;
+        margin:0 !important;
+    }
 }

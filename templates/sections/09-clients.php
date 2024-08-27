@@ -1,4 +1,4 @@
-<section class="section-9 py-5 m-0" id="" aria-labelledby=" clients-title">
+<section class="section-9 py-5 m-0" id="clients" aria-labelledby=" clients-title">
         <div class="container">
             <div class="row align-items-center">
                 <!-- Texte pour les clients à gauche -->
